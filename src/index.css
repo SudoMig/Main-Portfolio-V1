@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Montserrat' sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Montserrat {
+  font-family: 'Montserrat';
+}
+
+.radiantBG {
+  width: 1440px;
+  height: 1690px;
+
+  background: radial-gradient(
+      51.87% 57.63% at 73.33% 34.6%,
+      #243c94 0%,
+      rgba(36, 60, 148, 0) 100%
+    ),
+    #060606;
+}
+
+.radiantServicesBG {
+  width: 1440px;
+  height: 1154px;
+
+  background: radial-gradient(
+      47.03% 63.35% at 9.37% 42.06%,
+      rgba(30, 50, 121, 0.55) 18.57%,
+      rgba(0, 0, 0, 0) 80.92%
+    ),
+    #060606;
+}
+
+.radiantServicesBGMobile {
+  width: 1440px;
+  height: 1000px;
+
+  background: radial-gradient(
+      47.03% 63.35% at 9.37% 42.06%,
+      rgba(30, 50, 121, 0.55) 18.57%,
+      rgba(0, 0, 0, 0) 80.92%
+    ),
+    #060606;
+}
+
+.radiantWorkFlow {
+/*   
+  width: 1440px;
+  height: 1807px; */
+  
+
+  background: radial-gradient(
+        62.55% 51.6% at 30.76% 30.48%,
+        #203582 20.71%,
+        rgba(0, 0, 0, 0) 69.64%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        40.35% 29.22% at 77.26% 80.12%,
+        #203682 9.61%,
+        rgba(0, 0, 0, 0) 65.31%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #000000;
+}
+
+.radiantWorkFlowMobile {
+  
+  width: 1440px;
+  height: 1260px;
+  
+
+  background: radial-gradient(
+        62.55% 51.6% at 30.76% 30.48%,
+        #203582 20.71%,
+        rgba(0, 0, 0, 0) 69.64%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        40.35% 29.22% at 77.26% 80.12%,
+        #203682 9.61%,
+        rgba(0, 0, 0, 0) 65.31%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    #000000;
+}
+
+/* .transition { 
+    transition:  5s ease-out;
+  }
+ */

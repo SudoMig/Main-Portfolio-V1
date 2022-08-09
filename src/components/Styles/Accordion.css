@@ -1,0 +1,9 @@
+/* .transition { 
+    transition:  1s ease-out;
+  }
+ */
+
+ bar-transition {
+  left: 0;
+  transition: 20s;
+}
