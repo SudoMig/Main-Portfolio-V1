@@ -12,7 +12,7 @@ function Header() {
           <video
             loop
             autoPlay
-            className='absolute z-10 w-auto min-w-full  max-w-none'
+            className='absolute z-10 w-auto min-w-full max-w-none'
           >
             <source src={video} type='video/mp4' />
             Your browser does not support the video tag.

@@ -28,7 +28,7 @@ const Contact = () => {
     <>
       <div className='bg-black h-MobileContactBGImage sm:h-ContactBGImage'>
         <div className='relative overflow-hidden'>
-          <Container>
+          <Container >
             <div className=''>
               <div className='z-0'>
                 <img

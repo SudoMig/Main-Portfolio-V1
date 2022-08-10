@@ -38,7 +38,7 @@ const Services = () => {
           ;
         </div>
       </div>
-      <div className='hidden lg:block '>
+      <div className='hidden lg:block'>
         <div className='pt-24 md:pt-24 sm:pt-40'>
           <ServiceItems />
         </div>

@@ -29,20 +29,8 @@ code {
 }
 
 .radiantServicesBG {
-  width: 1440px;
-  height: 1154px;
-
-  background: radial-gradient(
-      47.03% 63.35% at 9.37% 42.06%,
-      rgba(30, 50, 121, 0.55) 18.57%,
-      rgba(0, 0, 0, 0) 80.92%
-    ),
-    #060606;
-}
-
-.radiantServicesBGMobile {
-  width: 1440px;
-  height: 1000px;
+  /* width: 1440px;
+  height: 1154px; */
 
   background: radial-gradient(
       47.03% 63.35% at 9.37% 42.06%,
@@ -59,13 +47,13 @@ code {
   
 
   background: radial-gradient(
-        62.55% 51.6% at 30.76% 30.48%,
+        42.55% 42.6% at 30.76% 30.48%,
         #203582 20.71%,
         rgba(0, 0, 0, 0) 69.64%
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     radial-gradient(
-        40.35% 29.22% at 77.26% 80.12%,
+        33.35% 35.22% at 77.26% 80.12%,
         #203682 9.61%,
         rgba(0, 0, 0, 0) 65.31%
       )
@@ -75,8 +63,8 @@ code {
 
 .radiantWorkFlowMobile {
   
-  width: 1440px;
-  height: 1260px;
+  /* width: 1440px;
+  height: 1260px; */
   
 
   background: radial-gradient(

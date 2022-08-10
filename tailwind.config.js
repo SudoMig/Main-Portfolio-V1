@@ -53,18 +53,6 @@ module.exports = {
             transform: 'translateX(0)',
           },
         },
-        'bar-fade-side': {
-          '0%': {
-            opacity: '0',
-            transform: 'translateX(-20px)',
-            delay: '75',	 
-          },
-          '100%': {
-            opacity: '1',
-            transform: 'translateX(0)',
-            delay: '75',
-          },
-        },
       },
       animation: {
         'fade-in-up': 'fade-in-up 0.6s ease-in forwards',

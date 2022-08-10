@@ -23,14 +23,13 @@ const MobileServiceItems = (props) => {
 
   return (
     <div className='max-w-8xl mx-auto'>
-      
       <div className='flex'>
         <div
           className={`w-full h-full bg-cover bg-center transition-all duration-700 grow-[2]
                     ${background_image}`}
         >
           <div className='flex pt-4'>
-            <div className='h-16 md:h-20 w-1 bg-blue-600 rounded-full ml-6 mr-2'/>
+            <div className='h-16 md:h-20 w-1 bg-blue-600 rounded-full ml-6 mr-2' />
             <div className='box-content w-56 font-semibold text-2xl text-white '>
               <button
                 onClick={() => props.setActive(props.index)}
