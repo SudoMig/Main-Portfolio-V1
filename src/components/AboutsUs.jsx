@@ -6,6 +6,7 @@ import AccordionItem from './Props/AccordionItem';
 import MobileAccordionItem from './Props/MobileAccordionItem';
 import Container from '../sections/Container';
 import './Styles/Accordion.css';
+import SideNav  from '../sections/SideNav';
 
 function AboutsUs() {
   const [image, setImage] = useState(0);
@@ -15,8 +16,11 @@ function AboutsUs() {
   };
 
   return (
-    <div>
-      <div className='bg-black radiantBG pt-56 w-full Montserrat '>
+    <div className=''>
+      <div className='block md:hidden '>
+          <SideNav/>
+        </div>
+      <div className='bg-black radiantBG pt-56 w-full Montserrat blur-sm '>
         <Container>
           <div className='sm:flex sm:justify-evenly items-center px-4'>
             <div className='box-content sm:w-96'>
