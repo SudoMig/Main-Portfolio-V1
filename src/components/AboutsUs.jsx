@@ -20,7 +20,7 @@ function AboutsUs() {
       <div className='block md:hidden '>
         <SideNav />
       </div>
-      <div className='bg-black radiantBG pt-40 md:pt-56 w-full bodyContent '>
+      <div className='bg-black radiantBG pt-40 md:pt-40 w-full bodyContent '>
         <Container>
           <div className='sm:flex sm:justify-evenly items-center px-4'>
             <div className='box-content sm:w-96'>
@@ -48,7 +48,7 @@ function AboutsUs() {
               />
             </div>
           </div>
-          <div className='flex justify-center mt-24 mb-24 sm:mt-56 sm:mb-48 font-semibold text-3xl text-PrimaryBlue sm:text-white '>
+          <div className='flex justify-center mt-24 mb-24 sm:mt-40 sm:mb-48 font-semibold text-3xl text-PrimaryBlue sm:text-white '>
             Process Overview
           </div>
           <div className='hidden md:block'>

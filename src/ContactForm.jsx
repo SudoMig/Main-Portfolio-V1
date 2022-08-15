@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './index.css'
 
 const FORM_ENDPOINT =
   'https://public.herotofu.com/v1/94655b00-cb2d-11ec-a557-034a17e2da28';
@@ -36,7 +37,7 @@ const ContactForm = () => {
             name='full-name'
             id='full-name'
             autoComplete='name'
-            className='border-b border-gray-800 md:border-b-2 border-white bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-blue-600 transition-all duration-200'
+            className='border-b border-gray-800 md:border-b-2 border-white bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-blue-600 transition-all duration-200 '
             placeholder='Name'
           />
         </div>

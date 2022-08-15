@@ -25,22 +25,22 @@ const AccordionItem = (props) => {
       <div>
         <div>
           <Container>
-            <div className='flex flex-col justify-center border-2'>
-              <div className='relative mb-4  '>
+            <div className='flex flex-col justify-center'>
+              <div className='relative mb-4'>
                 <div className='absolute left-[-2rem] top-4 h-28 w-[0.4rem] rounded-lg'>
                   <div
                     className={` absolute w-[0.4rem] h-0 bg-blue-100 z-0
                 ${
                   active === props.index
-                    ? 'absolute !bg-blue-600 !h-full h-1 rounded-lg transform duration-700 ease-out z-10 '
-                    : 'absolute !h-8 w-[0.4rem] rounded-lg z-10 '
+                    ? '!bg-blue-600 !h-full h-1 rounded-lg transform duration-700 ease-out z-10 '
+                    : '!h-10 w-[0.4rem] rounded-lg z-10 '
                 }`}
                   ></div>
                 </div>
               </div>
               {/*  Progress Overview Content  */}
 
-              <div className='font-bold text-lg text-white mb-4'>
+              <div className='font-bold text-lg text-white mb-4 z-10'>
                 <button
                   onClick={(e) => eventHandler(e, props.index)}
                   className={
