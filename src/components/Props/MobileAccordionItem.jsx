@@ -57,14 +57,14 @@ const MobileAccordionItem = (props) => {
                   {props.description}
                 </div>
                 <div className='relative mb-6'>
-                  <div
-                    className={`flex items-center w-[22rem] rounded-full bg-white z-0 
+                  <div className='absolute bg-blue-100 w-full h-1 rounded-lg z-0'>
+                    <div className={` absolute w-0
                     ${
                       active === props.index
-                        ? Style.activeBar
-                        : Style.inactiveBar
-                    }`}
-                  ></div>
+                        ? 'absolute bg-blue-600 !w-full h-1 rounded-lg transform duration-700 ease-out z-10'
+                        : null
+                    }`}></div>
+                  </div>
                 </div>
               </div>
               <div className='flex items-center'>
@@ -92,3 +92,13 @@ MobileAccordionItem.propTypes = {
 };
 
 export default MobileAccordionItem;
+
+
+{/* <div
+                    className={`absolute w-[22rem] rounded-full z-0 transform translate-x-0 
+                    ${
+                      active === props.index
+                        ? ''
+                        : 'absolute w-[22rem] rounded-full z-0 '
+                    }`}
+                  ></div> */}

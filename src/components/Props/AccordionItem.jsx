@@ -24,17 +24,23 @@ const AccordionItem = (props) => {
     <div>
       <div>
         <div>
-          {/* Content Bar */}
           <Container>
-            <div className='relative'>
-              <div
-                className={`absolute left-[-2rem] top-0 w-[0.2rem] rounded-full transition-all duration-500 
-          ${active === props.index ? Style.ActiveBar : Style.InactiveBar}`}
-              ></div>
-            </div>
-            {/*  Progress Overview Content  */}
-            <div className=''>
-              <div className='font-bold text-lg text-white box-content w-52 h-20'>
+            <div className='flex flex-col justify-center border-2'>
+              <div className='relative mb-4  '>
+                <div className='absolute left-[-2rem] top-4 h-28 w-[0.4rem] rounded-lg'>
+                  <div
+                    className={` absolute w-[0.4rem] h-0 bg-blue-100 z-0
+                ${
+                  active === props.index
+                    ? 'absolute !bg-blue-600 !h-full h-1 rounded-lg transform duration-700 ease-out z-10 '
+                    : 'absolute !h-8 w-[0.4rem] rounded-lg z-10 '
+                }`}
+                  ></div>
+                </div>
+              </div>
+              {/*  Progress Overview Content  */}
+
+              <div className='font-bold text-lg text-white mb-4'>
                 <button
                   onClick={(e) => eventHandler(e, props.index)}
                   className={
@@ -47,7 +53,7 @@ const AccordionItem = (props) => {
                   <span>{props.title}</span>
                 </button>
               </div>
-              <div className='text-white font-medium'>
+              <div className=''>
                 <div
                   id={'select-' + indexCount(props.index)}
                   className={

@@ -4,12 +4,10 @@ import '../../index.css'
 
 // Process Overview Desktop
 
-export const Activate = 'text-left transition-all duration-500';
-export const Inactive = 'text-left';
-export const PanelOpen = 'box-content w-96 mb-2';
-export const PanelClose = 'hidden';
-export const ActiveBar = 'bg-blue-600 w-2 h-36 z-10'
-export const InactiveBar = 'bg-blue-200 w-2 z-0'
+export const Activate = '';
+export const Inactive = '';
+export const PanelOpen = 'box-content w-96 transition-opacity opacity-100 duration-1000 ease-out text-white font-medium  ';
+export const PanelClose = 'transition-opacity opacity-0';
 export const ActiveImg = 'w-72'
 export const InactiveImg = 'hidden'
 
@@ -21,8 +19,6 @@ export const activate = 'text-left';
 export const inactive = 'text-left';
 export const panelOpen = 'box-content w-96 mb-2';
 export const panelClose = 'hidden';
-export const activeBar = 'w-10 z-50 h-2 bg-red-600 transition duration-700 flex-auto grow-1 '
-export const inactiveBar = 'h-[0.01rem] rounded-full bg-blue-200 z-0 overflow-hidden'
 export const activeImg = 'w-full'
 export const inactiveImg = 'hidden'
 
