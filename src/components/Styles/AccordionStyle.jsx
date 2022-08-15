@@ -1,4 +1,5 @@
 import './Accordion.css';
+import '../../index.css'
 
 
 // Process Overview Desktop
@@ -16,12 +17,12 @@ export const InactiveImg = 'hidden'
 
 // Process Overview Mobile
 
-export const activate = 'text-left transition-all duration-500';
+export const activate = 'text-left';
 export const inactive = 'text-left';
 export const panelOpen = 'box-content w-96 mb-2';
 export const panelClose = 'hidden';
-export const activeBar = 'bg-blue-600 h-1 z-10'
-export const inactiveBar = 'bg-blue-200 h-[0.01rem]  z-0'
+export const activeBar = 'w-10 z-50 h-2 bg-red-600 transition duration-700 flex-auto grow-1 '
+export const inactiveBar = 'h-[0.01rem] rounded-full bg-blue-200 z-0 overflow-hidden'
 export const activeImg = 'w-full'
 export const inactiveImg = 'hidden'
 

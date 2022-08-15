@@ -21,6 +21,12 @@ const MobileAccordionItem = (props) => {
     setActive(index);
   };
 
+  // BAR
+  // create a state for the bar to make empty bar and full bar
+  // Make a function that calls the current state and sets Style.Active or Style.Inactive
+  //  Make Inactive plain white
+  //  Make Active transition and translate from left to right ( Use absolute, transition-x or width)
+
   return (
     <div className=''>
       <div>
@@ -52,7 +58,7 @@ const MobileAccordionItem = (props) => {
                 </div>
                 <div className='relative mb-6'>
                   <div
-                    className={`w-[22rem] rounded-full transition-all duration-500 
+                    className={`flex items-center w-[22rem] rounded-full bg-white z-0 
                     ${
                       active === props.index
                         ? Style.activeBar
@@ -61,8 +67,6 @@ const MobileAccordionItem = (props) => {
                   ></div>
                 </div>
               </div>
-              {/* Content Bar */}
-
               <div className='flex items-center'>
                 <img
                   className={

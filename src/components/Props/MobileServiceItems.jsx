@@ -66,7 +66,6 @@ const MobileServiceItems = (props) => {
 MobileServiceItems.propTypes = {
   index: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
 };
 
 export default MobileServiceItems;

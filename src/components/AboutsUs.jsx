@@ -1,12 +1,12 @@
-import React, { useState, useContext } from 'react';
-import Data, { Images } from './Data/ProcessData';
+import React, { useState } from 'react';
+import Data from './Data/ProcessData';
 import ProcessImages from './ProcessImages';
 import AccordionWrapper from './AccordionWrapper';
 import AccordionItem from './Props/AccordionItem';
 import MobileAccordionItem from './Props/MobileAccordionItem';
 import Container from '../sections/Container';
 import './Styles/Accordion.css';
-import SideNav  from '../sections/SideNav';
+import SideNav from '../sections/SideNav';
 
 function AboutsUs() {
   const [image, setImage] = useState(0);
@@ -18,9 +18,9 @@ function AboutsUs() {
   return (
     <div className=''>
       <div className='block md:hidden '>
-          <SideNav/>
-        </div>
-      <div className='bg-black radiantBG pt-56 w-full Montserrat blur-sm '>
+        <SideNav />
+      </div>
+      <div className='bg-black radiantBG pt-40 md:pt-56 w-full Montserrat bodyContent '>
         <Container>
           <div className='sm:flex sm:justify-evenly items-center px-4'>
             <div className='box-content sm:w-96'>
