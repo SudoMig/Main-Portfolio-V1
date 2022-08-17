@@ -1,10 +1,10 @@
 import LaptopPoint from "../../Images/LaptopPoint.png";
-import Design from "../../Images/Design.png";
-import Devleopment from "../../Images/Development.png";
-import TestPic from "../../Images/TestPic.png";
+import Design from "../../Images/DesignProcess.png";
+import Devleopment from "../../Images/DevelopmentProcess.png";
+import ClientProcess from "../../Images/ClientProcess.png";
 const Data = [
   {
-    src: TestPic,
+    src: ClientProcess,
     title: "Client Process",
     description: "Setting up the client with all the information necessary. Signing the contract and sending the inital invoice.",
   },
