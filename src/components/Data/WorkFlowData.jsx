@@ -1,17 +1,21 @@
 import Design from '../../Images/Design.png'
+import WorkFlowClient from '../../Images/WorkFlowClient.png'
+import WorkFlowWireFrame from '../../Images/WorkFlowWireFrame.png'
+import WorkFlowDevelopment from '../../Images/WorkFlowDevelopment.png'
+import WorkFlowHandOff from '../../Images/WorkFlowHandOff.png'
 
 
 
 const WorkflowData = [
   {
     num: '01',
-    src: Design,
+    src: WorkFlowClient,
     title: 'Client Approach',
     description: ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
   },
   {
     num: '02',
-    src: Design,
+    src: WorkFlowWireFrame,
     title: 'WireFrame',
     description: ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
   },
@@ -23,13 +27,13 @@ const WorkflowData = [
   },
   {
     num: '04',
-    src: Design,
+    src: WorkFlowDevelopment,
     title: 'Developemnt',
     description: ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
   },
   {
     num: '05',
-    src: Design,
+    src: WorkFlowHandOff,
     title: 'Project HandOff',
     description: ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
   },
