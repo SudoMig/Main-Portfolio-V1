@@ -29,6 +29,7 @@ const Workflow = () => {
                 key={index}
                 index={index}
                 num={item.num}
+                icon={item.icon}
                 src={item.src}
                 title={item.title}
                 description={item.description}

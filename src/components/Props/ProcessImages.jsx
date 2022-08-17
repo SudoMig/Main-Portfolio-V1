@@ -24,7 +24,7 @@ const ProcessImages = ({ image }) => {
 
   return (
     <div>
-      <img src={source} alt='' />
+      <img className=' rounded-md' src={source} alt='' />
     </div>
   );
 };
