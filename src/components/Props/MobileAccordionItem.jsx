@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { AccordionContext } from '../AccordionWrapper';
 import * as Style from '../Styles/AccordionStyle';
 import '../Styles/Accordion.css';
-import ProcessImages from '../ProcessImages';
+import ProcessImages from './ProcessImages';
 
 const MobileAccordionItem = (props) => {
   let indexPlus;

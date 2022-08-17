@@ -1,15 +1,15 @@
 import { useState, useEffect } from 'react';
-import LaptopPoint from '../Images/LaptopPoint.png';
-import Design from '../Images/Design.png';
-import Devleopment from '../Images/Development.png';
+import Design from "../../Images/DesignProcess.png";
+import Devleopment from "../../Images/DevelopmentProcess.png";
+import ClientProcess from "../../Images/ClientProcess.png";
 
 const ProcessImages = ({ image }) => {
-  const [source, setSource] = useState(LaptopPoint);
+  const [source, setSource] = useState(ClientProcess);
 
   useEffect(() => {
     switch (image) {
       case 0:
-        setSource(LaptopPoint);
+        setSource(ClientProcess);
         return;
       case 1:
         setSource(Design);

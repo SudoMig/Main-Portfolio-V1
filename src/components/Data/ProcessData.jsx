@@ -1,4 +1,3 @@
-import LaptopPoint from "../../Images/LaptopPoint.png";
 import Design from "../../Images/DesignProcess.png";
 import Devleopment from "../../Images/DevelopmentProcess.png";
 import ClientProcess from "../../Images/ClientProcess.png";
@@ -22,7 +21,7 @@ const Data = [
 
 export const Images = [
   {
-    src: LaptopPoint,
+    src: ClientProcess,
   },
   {
     src: Design,

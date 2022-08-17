@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Data from './Data/ProcessData';
-import ProcessImages from './ProcessImages';
+import ProcessImages from './Props/ProcessImages';
 import AccordionWrapper from './AccordionWrapper';
 import AccordionItem from './Props/AccordionItem';
 import MobileAccordionItem from './Props/MobileAccordionItem';
