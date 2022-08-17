@@ -22,6 +22,7 @@ const Services = () => {
           </div>
         </div>
       </Container>
+      {/* Moblie */}
       <div className='block lg:hidden'>
         <div className='pt-24 md:pt-24 sm:pt-40'>
           {ServicesData.map((item, index) => (
@@ -38,6 +39,7 @@ const Services = () => {
           ;
         </div>
       </div>
+      {/* Desktop */}
       <div className='hidden lg:block'>
         <div className='pt-24 md:pt-24 sm:pt-40'>
           <ServiceItems />

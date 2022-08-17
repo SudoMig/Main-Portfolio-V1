@@ -5,7 +5,7 @@ import WorkflowData from './Data/WorkFlowData';
 
 const Workflow = () => {
   return (
-    <div>
+    <div className=''>
       <div className='radiantWorkFlowMobile w-full block lg:hidden'>
         <Container>
           <div>

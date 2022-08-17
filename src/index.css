@@ -129,6 +129,7 @@ code {
 }
 .Desktop-hvr-underline-from-left:before {
   content: "";
+  border-radius: 25px;
   position: absolute;
   z-index: -1;
   left: 0;
