@@ -8,15 +8,16 @@ module.exports = {
     extend: {
       backgroundImage: {
         bannerImage: "url('./Images/bannerImage.png')",
-        WebsiteDesign: "url('./Images/WebsiteDesign.png')",
+        WebsiteDesign: "url('./Images/MobileWebsiteDesign.png')",
         WebsiteDevelopment: "url('./Images/WebsiteDevelopment.png')",
-        PersonalizedRequests: "url('./Images/PersonalizedRequest.png')",
+        PersonalizedRequests: "url('./Images/SpecialRequest.png')",
         Others: "url('./Images/Other.png')",
         ContactBG: "url('./Images/ContactBG.png')",
         MobileWebsiteDesign: "url('./Images/MobileWebsiteDesign.png')",
         MobileWebsiteDevelopment: "url('./Images/MobileWebsiteDevelopment.png')",
         MobilePersonalizedRequests: "url('./Images/MobilePersonalizedRequest.png')",
         MobileOthers: "url('./Images/MobileOther.png')",
+        Test: "url('./Images/TestPic.png')",
       },
       height: {
         backgroundImage: '60.9375rem',
