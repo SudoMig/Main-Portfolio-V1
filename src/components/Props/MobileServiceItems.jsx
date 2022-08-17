@@ -47,10 +47,10 @@ const MobileServiceItems = (props) => {
           </div>
         </div>
         <div
-          className={`h-full bg-blue-900 bg-opacity-30 text-white text-justify h-0 text-opacity-0
+          className={`box-content w-[28rem] h-0 text-justify text-opacity-0 transform duration-700 ease-out overflow-hidden
             ${
               props.active === props.index
-                ? 'transform duration-1000 ease-out pt-4 pb-40 px-6 text-opacity-100 overflow-hidden'
+                ? 'bg-blue-900 bg-opacity-30 pt-4 pb-40 px-6 text-opacity-100 text-white'
                 : ' h-0 pointer-events-none'
             }
           `}
