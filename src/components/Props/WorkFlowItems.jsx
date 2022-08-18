@@ -24,15 +24,15 @@ const WorkFlowItems = (props) => {
   let BackgroundImage = '';
 
   if (props.id === 0) {
-    BackgroundImage = 'bg-Design w-28 h-40 bg-center md:w-1/3';
+    BackgroundImage = 'bg-WorkFlowClient bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-150';
   } else if (props.id === 1) {
-    BackgroundImage = 'bg-WorkFlowClient w-28 md:w-1/6';
+    BackgroundImage = 'bg-WorkFlowWireFrame bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
   } else if (props.id === 2) {
-    BackgroundImage = 'bg-WorkFlowWireFrame w-28 md:w-1/6';
+    BackgroundImage = 'bg-Design bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
   } else if (props.id === 3) {
-    BackgroundImage = 'bg-WorkFlowDevelopment w-28 md:w-1/6';
+    BackgroundImage = 'bg-WorkFlowDevelopment bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
   } else {
-    BackgroundImage = 'bg-WorkFlowHandOff w-28 md:w-1/6';
+    BackgroundImage = 'bg-WorkFlowHandOff bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
   }
 
   // WorkflowData.map((image) => {
