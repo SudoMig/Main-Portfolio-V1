@@ -18,6 +18,11 @@ module.exports = {
         MobilePersonalizedRequests: "url('./Images/MobilePersonalizedRequest.png')",
         MobileOthers: "url('./Images/MobileOther.png')",
         Test: "url('./Images/TestPic.png')",
+        Design: "url('./Images/Design.png')",
+        WorkFlowClient: "url('./Images/WorkFlowClient.png')",
+        WorkFlowWireFrame: "url('./Images/WorkFlowWireFrame.png')",
+        WorkFlowDevelopment: "url('./Images/WorkFlowDevelopment.png')",
+        WorkFlowHandOff: "url('./Images/WorkFlowHandOff.png')",
       },
       height: {
         backgroundImage: '60.9375rem',
