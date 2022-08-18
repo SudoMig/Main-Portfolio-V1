@@ -71,37 +71,3 @@ MobileServiceItems.propTypes = {
 };
 
 export default MobileServiceItems;
-
-// hover:flex-auto
-
-{
-  /* <div className='max-w-full mx-auto'>
-      <div
-        className='flex justify-between px-8 py-2 bg-yellow-100'
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        <h1>Title</h1>
-        <div className=''>{isOpen ? '-' : '+'}</div>
-      </div>
-     {isOpen && <div className='text-white'>
-        <p>Paragraph</p>
-      </div>}
-    </div> */
-}
-
-{
-  /* <div className=''>
-<div className=''>
-  <div className='bg-purple-500 bg-cover bg-center w-full h-32 border-2'>
-    <div
-      className='flex mt-4 text-white font-semibold'
-      onClick={() => setIsOpen(!isOpen)}
-    >
-      <div className='h-16 md:h-20 w-1 bg-blue-600 rounded-full ml-6 mr-2 ' />
-      <div className=''>{props.title}</div>
-    </div>
-  </div>
-  {isOpen && <div className=''>{props.paragraph}</div>}
-</div>
-</div> */
-}

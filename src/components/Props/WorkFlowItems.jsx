@@ -1,14 +1,12 @@
-import WorkflowData from '../Data/WorkFlowData';
-
 const WorkFlowItems = (props) => {
   const callback = function (entries) {
     entries.forEach((entry) => {
       console.log(entry);
 
       if (entry.isIntersecting) {
-        entry.target.classList.add('motion-safe:animate-fade-side');
+        entry.target.classList.add('animate-fade-side');
       } else {
-        entry.target.classList.remove('motion-safe:animate-fade-side');
+        entry.target.classList.remove('animate-fade-side');
       }
     });
   };
@@ -24,15 +22,15 @@ const WorkFlowItems = (props) => {
   let BackgroundImage = '';
 
   if (props.id === 0) {
-    BackgroundImage = 'bg-WorkFlowClient bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-150';
+    BackgroundImage = 'bg-WorkFlowClient bg-cover bg-center w-4/6 md:h-40 md:w-3/12 saturate-150';
   } else if (props.id === 1) {
-    BackgroundImage = 'bg-WorkFlowWireFrame bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
+    BackgroundImage = 'bg-WorkFlowWireFrame bg-cover bg-center w-4/6 md:h-40 md:w-3/12 saturate-200';
   } else if (props.id === 2) {
-    BackgroundImage = 'bg-Design bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
+    BackgroundImage = 'bg-Design bg-cover bg-center w-4/6 md:h-40 md:w-3/12 saturate-200';
   } else if (props.id === 3) {
-    BackgroundImage = 'bg-WorkFlowDevelopment bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
+    BackgroundImage = 'bg-WorkFlowDevelopment bg-cover bg-center w-4/6 md:h-40 md:w-3/12 saturate-200';
   } else {
-    BackgroundImage = 'bg-WorkFlowHandOff bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
+    BackgroundImage = 'bg-WorkFlowHandOff bg-cover bg-center w-4/6 md:h-40 md:w-3/12 saturate-200';
   }
 
 

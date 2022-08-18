@@ -27,7 +27,7 @@ function AboutsUs() {
               <div className='font-semibold text-white text-center sm:text-left text-3xl'>
                 I&apos;m An Autodicated Web Developer
               </div>
-              <div className='text-center sm:text-left'>
+              <div className='text-center sm:text-justify'>
                 <p className='py-8 sm:py-4 text-white'>
                   I&apos;m Miguel a web designer and developer with an avid
                   passion for reactjs. Recently started a website designing and
@@ -39,6 +39,14 @@ function AboutsUs() {
                   Posk rämint. Euk vapoktig i pask trepögon. Rekydok bir när
                   nisk. Erärat dos. Hoheten pretisa.
                 </p>
+              </div>
+              <div className='flex justify-center mt-10 text-white text-lg font-semibold text-white  font-semibold'>
+                <button className='bg-transparent border-2 border-blue-600 mx-4 py-2 px-8 rounded-sm'>
+                  <p className='whitespace-nowrap'>Resume</p>
+                </button>
+                <button className='bg-blue-600 mx-4 py-2 px-8 rounded-sm'>
+                  <p className='whitespace-nowrap'>Hire Me!</p>
+                </button>
               </div>
             </div>
             <div>
