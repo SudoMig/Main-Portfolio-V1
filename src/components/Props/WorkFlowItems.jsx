@@ -35,12 +35,6 @@ const WorkFlowItems = (props) => {
     BackgroundImage = 'bg-WorkFlowHandOff bg-cover bg-center w-28 md:h-40 md:w-3/12 saturate-200';
   }
 
-  // WorkflowData.map((image) => {
-  //   return (
-  //     BackgroundImage = <img className='w-28 md:w-1/6' src={props.src} alt='' key={image.src}/>,
-  //     console.log(BackgroundImage)
-  //   )
-  // })
 
   return (
     <div className='flex flex-col md:flex-row justify-center md:pb-4'>
@@ -52,7 +46,7 @@ const WorkFlowItems = (props) => {
           <div className='flex justify-center items-center h-full'>{props.icon}</div>
         </div>
         <div className='flex flex-col justify-center px-4'>
-          <p className='font-bold text-PrimaryBlue text-xl py-1 '>
+          <p className='font-bold text-PrimaryBlue text-2xl py-1 '>
             {props.title}
           </p>
           <p className='text-sm md:text-base py-2 md:py-1'>
