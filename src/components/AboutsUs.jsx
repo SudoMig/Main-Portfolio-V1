@@ -40,11 +40,11 @@ function AboutsUs() {
                   nisk. Erärat dos. Hoheten pretisa.
                 </p>
               </div>
-              <div className='flex justify-center mt-10 text-white text-lg font-semibold text-white  font-semibold'>
-                <button className='bg-transparent border-2 border-blue-600 mx-4 py-2 px-8 rounded-sm'>
+              <div className='flex justify-center mt-10 text-white text-lg text-white  font-base'>
+                <button className='bg-transparent border-2 border-gray-200 mx-4 py-1 px-8 rounded-md'>
                   <p className='whitespace-nowrap'>Resume</p>
                 </button>
-                <button className='bg-blue-600 mx-4 py-2 px-8 rounded-sm'>
+                <button className='bg-blue-600 mx-4 py-1 px-8 rounded-md'>
                   <p className='whitespace-nowrap'>Hire Me!</p>
                 </button>
               </div>

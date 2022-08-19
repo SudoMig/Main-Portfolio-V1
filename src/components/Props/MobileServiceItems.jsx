@@ -42,7 +42,7 @@ const MobileServiceItems = (props) => {
               </button>
             </div>
           </div>
-          <div className='flex justify-end '>
+          <div className='flex justify-end'>
             <div className='pr-12 font-semibold text-white'> ^</div>
           </div>
         </div>
