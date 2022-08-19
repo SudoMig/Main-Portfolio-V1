@@ -15,8 +15,8 @@ const ContactForm = () => {
   if (submitted) {
     return (
       <>
-        <div className='text-2xl'>Thank you! You have great taste 😉</div>
-        <div className='text-md'>We'll be in touch soon.</div>
+        <div className='text-2xl'>Thank you!</div>
+        <div className='text-md'>I'll be in touch shortly!😉</div>
       </>
     );
   }
@@ -71,7 +71,7 @@ const ContactForm = () => {
       <div>
         <button
           type='submit'
-          className='w-full bg-blue-600 font-semibold rounded-sm md:px-12 py-2  hover:bg-PrimaryBlue'
+          className=' w-full font-semibold glow-on-hover '
         >
           Submit
         </button>
