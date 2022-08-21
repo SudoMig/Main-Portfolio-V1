@@ -41,7 +41,7 @@ function AboutsUs() {
                 </p>
               </div>
               <div className='flex justify-evenly mt-10 text-white text-lg text-white font-base'>
-                <button className='btn px-6'>
+                <button className='btn-two px-6'>
                   <p className='whitespace-nowrap'>Resume</p>
                 </button>
                 <button className='btn-one px-6'>

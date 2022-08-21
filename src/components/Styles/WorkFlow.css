@@ -1,0 +1,17 @@
+.js-scroll {
+    /* background-color: transparent; */
+    opacity: 0;
+    transition: opacity 700ms;
+    width: 0%;
+  
+  }
+  
+  .js-scroll.scrolled {
+    opacity: 1;
+    width: 100%;
+
+    /* border-style: solid;
+    border-color: rgb(31 41 55); */
+    
+  }
+  
