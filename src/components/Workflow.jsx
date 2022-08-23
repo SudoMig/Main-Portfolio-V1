@@ -1,9 +1,37 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Container from '../sections/Container';
 import WorkFlowItems from './Props/WorkFlowItems';
 import WorkflowData from './Data/WorkFlowData';
 
 const Workflow = () => {
+  const callback = function (entries) {     
+    console.log("TRIGGERED")
+    entries.forEach((entry, index) => {
+      console.log("i = " , index)
+      let el = document.getElementById('test-' + index)
+
+      if (entry.isIntersecting) {
+        entry.target.classList.add('expand');        
+        // el.className += ' w-32 bg-red-500 h-full transition duration-700 ease-out'    
+        // console.log("TRUE --> " , index)
+      } else {
+        entry.target.classList.remove('expand');
+        // el.className += ' w-32 bg-yellow-500 h-full transition duration-700 ease-out'    
+        // console.log("FALSE --> " , index)
+      }
+    });
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(callback);
+
+    const targets = document.querySelectorAll('.js-show-on-scroll');
+    targets.forEach(function (target) {
+      // target.classList.add('opacity-0');
+      observer.observe(target);
+    });
+  }, [callback]);
+
   return (
     <div className=''>
       <div className='radiantWorkFlow w-full'>

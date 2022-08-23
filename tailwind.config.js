@@ -3,8 +3,6 @@ module.exports = {
   // purge: ['./src/**/*.{html,js}', './src/**/*.{html,js}'],
   content: ['./src/**/*.{js,jsx,css}'],
   theme: {
-  
-
     extend: {
       backgroundImage: {
         bannerImage: "url('./Images/bannerImage.png')",
@@ -14,8 +12,10 @@ module.exports = {
         Others: "url('./Images/Other.png')",
         ContactBG: "url('./Images/ContactBG.png')",
         MobileWebsiteDesign: "url('./Images/MobileWebsiteDesign.png')",
-        MobileWebsiteDevelopment: "url('./Images/MobileWebsiteDevelopment.png')",
-        MobilePersonalizedRequests: "url('./Images/MobilePersonalizedRequest.png')",
+        MobileWebsiteDevelopment:
+          "url('./Images/MobileWebsiteDevelopment.png')",
+        MobilePersonalizedRequests:
+          "url('./Images/MobilePersonalizedRequest.png')",
         MobileOthers: "url('./Images/MobileOther.png')",
         Test: "url('./Images/TestPic.png')",
         Design: "url('./Images/Design.png')",
@@ -37,7 +37,7 @@ module.exports = {
       },
       colors: {
         PrimaryBlue: '#5476EA',
-        lightPurple:'#9294f8'
+        lightPurple: '#9294f8',
       },
       keyframes: {
         'fade-in-up': {
@@ -60,6 +60,7 @@ module.exports = {
             transform: 'translateX(0)',
           },
         },
+       
       },
       animation: {
         'fade-in-up': 'fade-in-up 0.6s ease-in forwards',

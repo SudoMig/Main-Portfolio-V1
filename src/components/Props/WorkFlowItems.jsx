@@ -2,59 +2,29 @@ import { useEffect, useState } from 'react';
 import '../Styles/WorkFlow.css';
 
 const WorkFlowItems = (props) => {
- 
 
-  const scrollElements = document.querySelectorAll('.js-scroll width');
 
-  scrollElements.forEach((el) => {
-    el.getElementsByClassName.opacity = 0;
-    el.getElementsByClassName.width = '0%';
-  });
+  const [isActive, setIsActive] = useState(false)
 
-  const elementInView = (el, offset = 0) => {
-    const elementTop = el.getBoundingClientRect().top;
-
-    return (
-      elementTop <=
-      ((window.innerHeight || document.documentElmenent.clientHeight)- offset)
-    );
-  };
-
-  const displayScrollElement = (element) => {
-    element.classList.add('scrolled');
-  };
-
-  const hideScrollElement = (element) => {
-    element.classList.remove('scrolled');
-  };
-
-  const handleScrollAnimation = () => {
-    scrollElements.forEach((el) => {
-      if (elementInView(el, 100)) {
-        displayScrollElement(el);
-      } else {
-        hideScrollElement(el);
-      }
-    });
-  };
-
-  window.addEventListener('scroll', () => {
-    handleScrollAnimation()
-  })
+  
+  // {isActive ? ' w-32 bg-red-500 h-full ' : 'w-32 h-full bg-yellow-500 '  }
 
   return (
-    <div>
-      <div className='bg-red-500 w-full h-32 flex js-scroll'>
-        <div className='bg-black w-32 h-full border-2 width'></div>
-        <div className='text-white flex justify-center items-center'>
+    <div className=''>
+      <div className='js-show-on-scroll flex  h-32'>
+        <div className='flex flex-col-2 grow space-x-6'>
+        <div className='w-1/4 h-full bg-red-600' />
+        <div className='w-96 text-white flex justify-start items-center z-10 '>
           Hello This is some random dummny text. Why don't you go to Africa for
           lunch and paris for dinner? Strange huh
         </div>
+        </div>
       </div>
+      {/* absolute w-[40rem] top-1/3 left-1/4 text-white  z-10 */}
+     
+
     </div>
   );
-
-
 
   //   let BackgroundImage = '';
 
@@ -110,22 +80,57 @@ const WorkFlowItems = (props) => {
 
 export default WorkFlowItems;
 
-// const callback = function (entries) {
-//   entries.forEach((entry) => {
-//     console.log(entry);
+//   const scrollElements = document.querySelectorAll('.js-scroll');
 
-//     if (entry.isIntersecting) {
-//       entry.target.classList.add('animate-fade-side');
-//     } else {
-//       entry.target.classList.remove('animate-fade-side');
-//     }
+//   scrollElements.forEach((el) => {
+//     el.getElementsByClassName.opacity = 0;
 //   });
-// };
 
-// const observer = new IntersectionObserver(callback);
+//   const elementInView = (el, offset = 0) => {
+//     const elementTop = el.getBoundingClientRect().top;
+//     console.log(el.getBoundingClientRect().top)
 
-// const targets = document.querySelectorAll('.js-show-on-scroll');
-// targets.forEach(function (target) {
-//   target.classList.add('opacity-0');
-//   observer.observe(target);
-// });
+//     return (
+//       elementTop <=
+//       ((window.innerHeight || document.documentElmenent.clientHeight)- offset)
+//     );
+//   };
+
+//   const displayScrollElement = (element) => {
+//     element.classList.add('scrolled');
+//   };
+
+//   const hideScrollElement = (element) => {
+//     element.classList.remove('scrolled');
+//   };
+
+//   const handleScrollAnimation = () => {
+//     scrollElements.forEach((el) => {
+//       if (elementInView(el, 100)) {
+//         displayScrollElement(el);
+//       } else {
+//         hideScrollElement(el);
+//       }
+//     });
+//   };
+
+//   //initialize throttleTimer as false
+// let throttleTimer = false;
+
+// const throttle = (callback, time) => {
+//     //don't run the function while throttle timer is true
+//     if (throttleTimer) return;
+
+//     //first set throttle timer to true so the function doesn't run
+//     throttleTimer = true;
+
+//     setTimeout(() => {
+//         //call the callback function in the setTimeout and set the throttle timer to false after the indicated time has passed
+//         callback();
+//         throttleTimer = false;
+//     }, time);
+// }
+
+//   window.addEventListener('scroll', () => {
+//    throttle(handleScrollAnimation, 250)
+//   })
