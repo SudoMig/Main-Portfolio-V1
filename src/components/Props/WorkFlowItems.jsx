@@ -18,7 +18,7 @@ const WorkFlowItems = (props) => {
   // </div>
   // );
 
-  let BackgroundImage = '';
+ let BackgroundImage = '';
 
   if (props.id === 0) {
     BackgroundImage = 'bg-WorkFlowClient bg-cover bg-center saturate-150 z-10 ';
@@ -42,8 +42,8 @@ const WorkFlowItems = (props) => {
           <div className='flex'>
           {/* flex justify-center items-center h-full text-white  */}
             <div
-              id='workFlowIcon'
-              className={` flex justify-center items-center h-full text-white transition-all duration-700 ease-out w-full box-content w-32 ${BackgroundImage}`}
+              id={'workFlowIcon-' + props.index}
+              className={` flex justify-center items-center h-full text-white ${BackgroundImage}`}
             >
               {props.icon}
             </div>

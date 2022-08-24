@@ -8,10 +8,10 @@ const Workflow = () => {
     entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('expand');
-        // document.getElementById('workFlowIcon').className = 'shownIcon';
+        entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out w-32'
       } else {
         entry.target.classList.remove('expand');
-        // document.getElementById('workFlowIcon').className = 'hidden-icon';
+        entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out  w-0'
       }
     });
   };
