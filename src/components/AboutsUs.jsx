@@ -23,7 +23,7 @@ function AboutsUs() {
       <div className='bg-black radiantBG pt-40 md:pt-40 w-full bodyContent '>
         <Container>
           <div className='sm:flex sm:justify-evenly items-center px-4'>
-            <div className='box-content sm:w-96'>
+            <div className='box-content sm:w-[38rem]'>
               <div className='font-semibold text-white text-center sm:text-left text-3xl'>
                 I&apos;m An Autodicated Web Developer
               </div>
@@ -51,8 +51,8 @@ function AboutsUs() {
             </div>
             <div>
               <img
-                className='mt-20 object-scale-down w-full sm:w-[28rem]'
-                src={require('../Images/profilePicture.png')}
+                className='mt-20 object-scale-down w-full sm:w-[26rem] '
+                src={require('../Images/Memoji.png')}
               />
             </div>
           </div>

@@ -4,21 +4,14 @@ import WorkFlowItems from './Props/WorkFlowItems';
 import WorkflowData from './Data/WorkFlowData';
 
 const Workflow = () => {
-  const callback = function (entries) {     
-    console.log("TRIGGERED")
+  const callback = function (entries) {
     entries.forEach((entry, index) => {
-      console.log("i = " , index)
-      let el = document.getElementById('test-' + index)
-
       if (entry.isIntersecting) {
-        entry.target.classList.add('expand');  
-              
-        // el.className += ' w-32 bg-red-500 h-full transition duration-700 ease-out'    
-        // console.log("TRUE --> " , index)
+        entry.target.classList.add('expand');
+        // document.getElementById('workFlowIcon').className = 'shownIcon';
       } else {
         entry.target.classList.remove('expand');
-        // el.className += ' w-32 bg-yellow-500 h-full transition duration-700 ease-out'    
-        // console.log("FALSE --> " , index)
+        // document.getElementById('workFlowIcon').className = 'hidden-icon';
       }
     });
   };
@@ -74,3 +67,8 @@ const Workflow = () => {
 export default Workflow;
 
 // hover:flex-auto
+
+// let el = document.getElementById('test-' + index)
+
+// el.className += ' w-32 bg-red-500 h-full transition duration-700 ease-out'
+// console.log("TRUE --> " , index)

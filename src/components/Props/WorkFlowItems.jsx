@@ -21,34 +21,34 @@ const WorkFlowItems = (props) => {
   let BackgroundImage = '';
 
   if (props.id === 0) {
-    BackgroundImage =
-      'bg-WorkFlowClient bg-cover bg-center saturate-150 z-10 ';
+    BackgroundImage = 'bg-WorkFlowClient bg-cover bg-center saturate-150 z-10 ';
   } else if (props.id === 1) {
-    BackgroundImage =
-      'bg-WorkFlowWireFrame bg-cover bg-center saturate-200';
+    BackgroundImage = 'bg-WorkFlowWireFrame bg-cover bg-center saturate-200';
   } else if (props.id === 2) {
-    BackgroundImage =
-      'bg-Design bg-cover bg-center saturate-200';
+    BackgroundImage = 'bg-Design bg-cover bg-center saturate-200';
   } else if (props.id === 3) {
-    BackgroundImage =
-      'bg-WorkFlowDevelopment bg-cover bg-center saturate-200';
+    BackgroundImage = 'bg-WorkFlowDevelopment bg-cover bg-center saturate-200';
   } else {
-    BackgroundImage =
-      'bg-WorkFlowHandOff bg-cover bg-center saturate-200';
+    BackgroundImage = 'bg-WorkFlowHandOff bg-cover bg-center saturate-200';
   }
 
   return (
-    <div className=''>
+    <div className='flex flex-col md:flex-row md:pb-4'>
+       <p className='pr-4 pb-2 md:pb-0 text-xl text-gray-200 font-bold'>
+          {props.num}
+        </p>
       <div className='js-show-on-scroll flex md:h-40'>
-        <div className='flex grow'>
-          <div className='flex grow'>
-            <div className={`group w-full  ${BackgroundImage}`}>
-              <div className='group flex justify-center items-center h-full text-white '>
-                {props.icon}
-              </div>
+        <div className='flex'>
+          <div className='flex'>
+          {/* flex justify-center items-center h-full text-white  */}
+            <div
+              id='workFlowIcon'
+              className={` flex justify-center items-center h-full text-white transition-all duration-700 ease-out w-full box-content w-32 ${BackgroundImage}`}
+            >
+              {props.icon}
             </div>
           </div>
-          <div className='w-[46rem] pl-4 text-white flex justify-start items-center z-10 '>
+          <div className=' w-[46rem] pl-4 text-white flex justify-start items-center z-10 '>
             Hello This is some random dummny text. Why don't you go to Africa
             for lunch and paris for dinner? Strange huh
           </div>
