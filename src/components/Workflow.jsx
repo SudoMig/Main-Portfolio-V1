@@ -11,7 +11,8 @@ const Workflow = () => {
       let el = document.getElementById('test-' + index)
 
       if (entry.isIntersecting) {
-        entry.target.classList.add('expand');        
+        entry.target.classList.add('expand');  
+              
         // el.className += ' w-32 bg-red-500 h-full transition duration-700 ease-out'    
         // console.log("TRUE --> " , index)
       } else {

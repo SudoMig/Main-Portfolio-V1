@@ -31,6 +31,7 @@
 @keyframes expand-animateThis {
   0% {
     width: 0%;
+
   
   }
   100% {
@@ -39,29 +40,3 @@
 }
 
 
-/* @keyframes expand-animate {
-  0% {
-    transition: scale(10);
-}
-100% {
-    transform: scale(1);
-}
-} */
-
-
-  /* .width {
-    width: 100%;
-    transition: width 700ms ease-in;
-  } */
-
-
-/* 
-
-   .width {
-    '0%: {
-      width: '0%',
-    },
-    '100%': {
-      width: '100%',
-    },
-  },  */

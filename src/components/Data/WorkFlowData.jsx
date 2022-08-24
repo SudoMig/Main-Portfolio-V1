@@ -2,7 +2,6 @@ import { BsCodeSlash, BsArrowsFullscreen } from 'react-icons/bs';
 import { RiOpenArmLine, RiPenNibLine } from 'react-icons/ri';
 import { MdOutlineDocumentScanner } from 'react-icons/md';
 import { SiFiles } from 'react-icons/si';
-import { BsFillFilePdfFill } from 'react-icons/bs';
 
 const WorkflowData = [
   {
