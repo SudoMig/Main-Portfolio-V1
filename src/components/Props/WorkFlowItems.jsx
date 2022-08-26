@@ -21,7 +21,7 @@ const WorkFlowItems = (props) => {
   let BackgroundImage = '';
 
   if (props.id === 0) {
-    BackgroundImage = 'bg-WorkFlowClient bg-cover bg-center saturate-150 z-10 ';
+    BackgroundImage = 'bg-WorkFlowClient bg-cover bg-center saturate-150 ';
   } else if (props.id === 1) {
     BackgroundImage = 'bg-WorkFlowWireFrame bg-cover bg-center saturate-200';
   } else if (props.id === 2) {
@@ -37,10 +37,9 @@ const WorkFlowItems = (props) => {
       <p className='pr-4 pb-2 md:pb-0 text-xl text-gray-200 font-bold'>
         {props.num}
       </p>
-      <div className='js-show-on-scroll flex md:h-40'>
+      <div className='js-show-on-scroll flex md:h-48'>
         <div className='flex'>
           <div className='flex'>
-            {/* flex justify-center items-center h-full text-white  */}
             <div
               id={'workFlowIcon-' + props.index}
               className={`flex justify-center items-center h-full text-white ${BackgroundImage}`}
