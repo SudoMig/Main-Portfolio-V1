@@ -43,7 +43,7 @@ const WorkFlowItems = (props) => {
             {/* flex justify-center items-center h-full text-white  */}
             <div
               id={'workFlowIcon-' + props.index}
-              className={` flex justify-center items-center h-full text-white ${BackgroundImage}`}
+              className={`flex justify-center items-center h-full text-white ${BackgroundImage}`}
             >
               {props.icon}
             </div>
@@ -51,7 +51,7 @@ const WorkFlowItems = (props) => {
           <div className='flex items-center w-[46rem] pl-4'>
             <div className='flex flex-col'>
             <p className='text-blue-600 text-xl font-semibold pb-2'>{props.title}</p>
-            <p className='text-white '>
+            <p className='text-white'>
               Hello This is some random dummny text. Why don't you go to Africa
               for lunch and paris for dinner? Strange huh
             </p>

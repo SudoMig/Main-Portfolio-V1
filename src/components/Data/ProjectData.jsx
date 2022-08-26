@@ -1,4 +1,6 @@
 import Design from "../../Images/DesignProcess.png";
+import Devleopment from "../../Images/DevelopmentProcess.png";
+import ClientProcess from "../../Images/ClientProcess.png";
 
 const ProjectData = [
   {
@@ -9,14 +11,14 @@ const ProjectData = [
     
   },
   {
-    src: Design,
+    src: Devleopment,
     title: 'Website Development',
     content:
       'Makropura doplara. Pode dedade homonas, huruvida trev. Retresamma kosona i fin nuligt. Prende pyse suling föledes. ',
     
   },
   {
-    src: Design,
+    src: ClientProcess,
     title: 'Special Request',
     content:
       'Makropura doplara. Pode dedade homonas, huruvida trev. Retresamma kosona i fin nuligt. Prende pyse suling föledes. ',
