@@ -39,6 +39,7 @@ module.exports = {
         PrimaryBlue: '#5476EA',
         lightPurple: '#9294f8',
       },
+    
       keyframes: {
         'fade-in-up': {
           '0%': {

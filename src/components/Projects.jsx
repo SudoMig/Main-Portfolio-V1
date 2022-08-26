@@ -1,6 +1,7 @@
 import React, { Component} from 'react';
 import Container from '../sections/Container';
 import ProjectsItems from './Props/ProjectsItems';
+import ProjectData from './Data/ProjectData'
 // import { CarouselData } from './Data/CarouselData';
 // import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai';
 // import Swipe from 'react-easy-swipe';
@@ -11,8 +12,20 @@ function Projects() {
 
 return (
   <>
-  <div>
-  
+  <div className='bg-black pb-48 border-2 '>
+    <Container>
+     <div className='flex justify-evenly items-center h-screen space-x-6'>
+     { ProjectData.map((items, index) => (
+        <ProjectsItems
+        key={index}
+        index={index}
+        src={items.src}
+        title={items.title}
+        content={items.content} />
+      ))}
+     </div>
+      
+    </Container>
   </div>
   </>
 )

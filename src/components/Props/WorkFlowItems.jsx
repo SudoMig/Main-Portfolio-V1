@@ -18,7 +18,7 @@ const WorkFlowItems = (props) => {
   // </div>
   // );
 
- let BackgroundImage = '';
+  let BackgroundImage = '';
 
   if (props.id === 0) {
     BackgroundImage = 'bg-WorkFlowClient bg-cover bg-center saturate-150 z-10 ';
@@ -34,13 +34,13 @@ const WorkFlowItems = (props) => {
 
   return (
     <div className='flex flex-col md:flex-row md:pb-4'>
-       <p className='pr-4 pb-2 md:pb-0 text-xl text-gray-200 font-bold'>
-          {props.num}
-        </p>
+      <p className='pr-4 pb-2 md:pb-0 text-xl text-gray-200 font-bold'>
+        {props.num}
+      </p>
       <div className='js-show-on-scroll flex md:h-40'>
         <div className='flex'>
           <div className='flex'>
-          {/* flex justify-center items-center h-full text-white  */}
+            {/* flex justify-center items-center h-full text-white  */}
             <div
               id={'workFlowIcon-' + props.index}
               className={` flex justify-center items-center h-full text-white ${BackgroundImage}`}
@@ -48,9 +48,14 @@ const WorkFlowItems = (props) => {
               {props.icon}
             </div>
           </div>
-          <div className=' w-[46rem] pl-4 text-white flex justify-start items-center z-10 '>
-            Hello This is some random dummny text. Why don't you go to Africa
-            for lunch and paris for dinner? Strange huh
+          <div className='flex items-center w-[46rem] pl-4'>
+            <div className='flex flex-col'>
+            <p className='text-blue-600 text-xl font-semibold pb-2'>{props.title}</p>
+            <p className='text-white '>
+              Hello This is some random dummny text. Why don't you go to Africa
+              for lunch and paris for dinner? Strange huh
+            </p>
+            </div>
           </div>
         </div>
       </div>
