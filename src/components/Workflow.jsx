@@ -8,7 +8,7 @@ const Workflow = () => {
     entries.forEach((entry, index) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('expand');
-        entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out w-32'
+        entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out w-36'
       } else {
         entry.target.classList.remove('expand');
         entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out  w-0'
