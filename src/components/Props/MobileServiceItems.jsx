@@ -25,14 +25,14 @@ const MobileServiceItems = (props) => {
     <div className='max-w-8xl mx-auto'>
       <div className='flex flex-col '>
         <div
-          className={`bg-cover bg-center flex-initial w-full h-52 
+        onClick={() => props.setActive(props.index)}
+          className={`bg-cover bg-center flex-initial w-full h-52 cursor-pointer md:cursor-auto	
               ${background_image}`}
         >
           <div className='flex pt-4'>
             <div className='h-16 md:h-20 w-1 bg-blue-600 rounded-full ml-6 mr-2' />
             <div className='font-semibold text-2xl text-white '>
               <button
-                onClick={() => props.setActive(props.index)}
                 className={props.active === props.index ? Style.on : Style.off}
                 aria-expanded={props.active === props.index ? 'true' : 'false'}
                 aria-controls={'select-' + indexCount(props.index)}
