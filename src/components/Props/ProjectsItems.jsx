@@ -14,7 +14,7 @@ const ProjectsItems = (props) => {
           <div className='py-14 px-4 rounded-b-md'>
             <div className='text-white text-xl font-semibold mb-2'>{props.title}</div>
             <div className='text-white'>{props.content}</div>
-            <button className='bg-blue-700 text-slate-100 h-10 w-24 mt-4 font-semibold rounded-md'>See More</button>
+            <button className='bg-blue-700 text-slate-100 h-10 w-24 mt-4 font-semibold rounded-md cursor-default	 '>More Soon</button>
           </div>
         </div>
       </div>
