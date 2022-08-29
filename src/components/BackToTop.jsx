@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {FaAngleDoubleUp} from 'react-icons/fa'
 
 const BackToTop = () => {
   
@@ -23,10 +24,10 @@ const BackToTop = () => {
   
     return (
       <>
-  
+    
           {showButton && (
-          <button onClick={scrollToTop} className="back-to-top fixed bottom-8 right-4 sm:bottom-10 sm:right-16 text-3xl sm:text-4xl text-indigo-700 bg-indigo-50 hover:text-indigo-50 hover:bg-indigo-700 z-50">
-            hello
+          <button onClick={scrollToTop} className="z-50 fixed  md:right-12 bottom-12 border-2 border-blue-600 bg-transparent w-10 h-16 bg-white text-xl text-slate-100 font-semibold flex justify-center items-center text-center rounded-full hover:bg-blue-600 transition duration-300 ease-out">
+            <FaAngleDoubleUp/>
           </button>
         )}
       </>
