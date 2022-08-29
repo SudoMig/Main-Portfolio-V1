@@ -13,7 +13,7 @@ const SideNav = () => {
   const NavBarOpen =
     'z-10 absolute right-0 bg-black w-1/2 h-full transition-all translate-x-0 duration-1000 ease-in-out ';
 
-  const NavBarClose = 'z-10 absolute right-0 transition-all duration-1000 translate-x-80 ease-out'
+  const NavBarClose = 'z-10 absolute right-[-12rem] w-1/2 h-full transition-all duration-1000 ease-in-out'
   
   
   const [isOpen, setIsOpen] = useState(false);
@@ -23,10 +23,10 @@ const SideNav = () => {
 
   useEffect(() => {
     if (isOpen) {
-      document.body.style.overflow = 'hidden';
+      document.body.style.overflow = 'hidden transition-all duration-700 ease-in-out';
       bodyContent[0].style.filter = 'blur(5px)';
     } else {
-      document.body.style.overflow = 'auto';
+      document.body.style.overflow = 'auto transition-all duration-700 ease-in-out';
       bodyContent[0].style.filter = 'blur(0px)';
     }
   }, [isOpen]);
