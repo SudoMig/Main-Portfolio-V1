@@ -26,7 +26,7 @@ function Header() {
           </video> */}
           <div
             data-aos='fade-right'
-            data-aos-duration="700"
+            data-aos-duration="900"
             className='z-40 absolute left-0 md:left-5 md:bottom-0 lg:bottom-10 lg:left-16 text-white'
           >
             <p className='sm:text-lg'>Web Designer & Developer</p>

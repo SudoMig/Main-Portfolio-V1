@@ -5,18 +5,18 @@ const ProjectsItems = (props) => {
     <div className='flex h-3/5 px-10 pt-24'>
       <div className='rounded-lg w-full'>
         <div className='w-full transition-all duration-700 ease-in-out'>
-          <img
-            data-aos='fade-right'
-            data-aos-duration='700'
-            //   brightness-75 hover:grayscale-0 hover:brightness-100
-            className='hover:shadow-lg hover:shadow-blue-500/30 hover:scale-125 rounded-lg border-t border-gray-800 transition-all duration-700 ease-in-out  '
-            src={props.src}
-            alt=''
-          />
+          <div data-aos='fade-right' data-aos-duration='700'>
+            <img
+              // brightness-75 hover:grayscale-0 hover:brightness-100
+              className='hover:shadow-lg hover:shadow-blue-500/30 hover:scale-125 rounded-lg border-t border-gray-800 transition-all duration-700 ease-in-out  '
+              src={props.src}
+              alt=''
+            />
+          </div>
           <div
             data-aos='fade-right'
             data-aos-duration='700'
-            data-aos-delay="350"
+            data-aos-delay='350'
             className='py-14 px-4'
           >
             <div className='text-white text-xl font-semibold mb-2'>

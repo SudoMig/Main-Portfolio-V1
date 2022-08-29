@@ -7,6 +7,7 @@ import MobileAccordionItem from './Props/MobileAccordionItem';
 import Container from '../sections/Container';
 import './Styles/Accordion.css';
 import SideNav from '../sections/SideNav';
+import {Link } from 'react-scroll'
 
 function AboutsUs() {
   const [image, setImage] = useState(0);
@@ -42,10 +43,14 @@ function AboutsUs() {
               </div>
               <div className='flex justify-evenly mt-10 text-white text-lg text-white font-base font-semibold'>
                 <button className='hvr-rectangle-in h-11 w-28 '>
-                  <p className='whitespace-nowrap'>Hire Me!</p>
+                <Link to='Contact' smooth={true} duration={1000} className='whitespace-nowrap cursor-pointer'>
+                  Hire Me
+                </Link>
                 </button>
                 <button className='hvr-rectangle-out h-11 w-28 '>
-                  <p className='whitespace-nowrap '>Resume </p>
+                  <Link to='' smooth={true} duration={1000} className='whitespace-nowrap '>
+                  Resume
+                  </Link>
                 </button>
               </div>
             </div>
