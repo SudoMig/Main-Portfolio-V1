@@ -477,7 +477,7 @@ code {
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #9502f7, #7a00ff, #002fff, #1100ff, #6f00ff, #002bff, #7a00ff, #ff00c8, #0004ff);
+    background: linear-gradient(45deg, #3b82f6, #2563eb, #1d4ed8, #1100ff, #1e40af, #1e3a8a, #1e40af, #1100ff, #1d4ed8, #2563eb, #3b82f6 );
     position: absolute;
     top: -2px;
     left:-2px;
