@@ -41,10 +41,10 @@ function AboutsUs() {
                 </p>
               </div>
               <div className='flex justify-evenly mt-10 text-white text-lg text-white font-base font-semibold'>
-                <button className='hvr-rectangle-in h-10 w-28 '>
+                <button className='hvr-rectangle-in h-11 w-28 '>
                   <p className='whitespace-nowrap'>Hire Me!</p>
                 </button>
-                <button className='hvr-rectangle-out h-10 w-28'>
+                <button className='hvr-rectangle-out h-11 w-28 '>
                   <p className='whitespace-nowrap '>Resume </p>
                 </button>
               </div>

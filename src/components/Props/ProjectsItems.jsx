@@ -11,10 +11,10 @@ const ProjectsItems = (props) => {
             src={props.src}
             alt=''
           />
-          <div className='py-14 px-4 rounded-b-md'>
+          <div className='py-14 px-4'>
             <div className='text-white text-xl font-semibold mb-2'>{props.title}</div>
             <div className='text-white'>{props.content}</div>
-            <button className='bg-slate-100 text-black h-10 w-28 mt-4 font-semibold rounded-md cursor-default hvr-bounce-to-right'>More Soon</button>
+            <button className='bg-slate-100 text-black h-10 w-28 mt-4 font-semibold cursor-default hvr-bounce-to-right'>More Soon</button>
           </div>
         </div>
       </div>
