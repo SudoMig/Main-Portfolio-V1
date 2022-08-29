@@ -16,7 +16,7 @@ const ProjectsItems = (props) => {
           <div
             data-aos='fade-right'
             data-aos-duration='700'
-            data-aos-delay="500"
+            data-aos-delay="350"
             className='py-14 px-4'
           >
             <div className='text-white text-xl font-semibold mb-2'>
