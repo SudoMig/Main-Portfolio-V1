@@ -9,7 +9,7 @@ import ContactForm from '../ContactForm';
 const Contact = () => {
   return (
     <>
-      <div className='relative overflow-hidden border-2 bg-black h-MobileContactBGImage lg:h-full'>
+      <div className='relative overflow-hidden bg-black h-MobileContactBGImage lg:h-full'>
         <div className=''>
           <div className='hidden lg:block z-0 '>
             <img
@@ -29,16 +29,16 @@ const Contact = () => {
 
         <Container resolution>
           <div className='flex flex-col justify-center h-screen'>
-            <h1 className='z-50 text-blue-600 font-semibold text-4xl md:text-5xl pl-12'>
+            <h1 className='hidden md:block z-50 text-blue-600 font-semibold text-4xl md:text-5xl pl-6 md:pl-12'>
               Contact Me.
             </h1>
             <div className=''>
               <div className='flex justify-center'>
-                <div className='z-50 bg-black border-2 border-blue-600 w-full py-8 md:py-0'>
+                <div className='z-50 bg-black md:border-2 border-blue-600 w-full py-8 md:py-0'>
                   <div className='flex flex-col md:flex-row justify-evenly items-center h-full '>
                     <div className='text-white flex-inital'>
                       <img
-                        className='object-scale-down w-32 pt-4 md:pt-8 sm:pl-0 sm:pt-0 sm:w-full'
+                        className='object-scale-down w-40 md:w-48 pb-6 md:pb-0 md:pt-8 sm:pl-0 sm:pt-0 sm:w-full'
                         src={Mailbox}
                         alt=''
                       />
@@ -46,7 +46,7 @@ const Contact = () => {
                     <div className='text-white flex-inital'>
                       <div className='font-semibold text-base sm:text-2xl text-white pt-4 sm:pt-12'>
                         <div className='md:mt-4 md:mb-2'>Let's Talk. </div>
-                        <div className=''>Enter your project Details.</div>
+                        <div className='mb-1 md:mb-0'>Enter your project Details.</div>
                         <ContactForm />
                       </div>
                     </div>

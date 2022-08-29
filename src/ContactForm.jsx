@@ -71,7 +71,7 @@ const ContactForm = () => {
       <div>
         <button
           type='submit'
-          className=' w-full font-semibold glow-on-hover '
+          className=' text-blue-600 md:text-white text-lg w-full font-semibold glow-on-hover '
         >
           Submit
         </button>
