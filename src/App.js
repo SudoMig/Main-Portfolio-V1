@@ -1,6 +1,7 @@
 import "./App.css";
-import Header from "./components/Header";
 import NavBar from "./sections/navBar";
+import BackToTop from "./components/BackToTop";
+import Header from "./components/Header";
 import AboutsUs from "./components/AboutsUs";
 import Techonolgies from "./components/Techonolgies";
 import Services from "./components/Services";
@@ -17,6 +18,7 @@ function App() {
   return (
     <div className="Montserrat scroll-smooth">
       <NavBar />
+      <BackToTop />
       <Header />
       <AboutsUs />
       <Techonolgies />
