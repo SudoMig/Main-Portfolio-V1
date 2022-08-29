@@ -16,7 +16,7 @@ AOS.init()
 
 function App() {
   return (
-    <div className="Montserrat scroll-smooth">
+    <div className="Montserrat">
       <NavBar />
       <BackToTop />
       <Header />

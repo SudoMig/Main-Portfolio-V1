@@ -1,6 +1,8 @@
-import React from 'react';
 import SideNav from './SideNav';
 import '../index.css';
+import {Link } from 'react-scroll'
+
+
 
 function navBar(props) {
   return (
@@ -15,24 +17,23 @@ function navBar(props) {
               </a>
               <div className='space-x-6 md:space-x-14 lg:space-x-32'>
                 {/* About */}
-                <a
-                  href='#AboutUs'
-                  className='Desktop-hvr-underline-from-left '
-                >
+               
+                <Link to='AboutUs' smooth={true} duration={1000} className='Desktop-hvr-underline-from-left cursor-pointer'>
                   About
-                </a>
+                </Link>
+              
                 {/* Process */}
-                <a href='#ProcessOverview' className='Desktop-hvr-underline-from-left'>
+                <Link to='ProcessOverview' smooth={true} duration={1000} className='Desktop-hvr-underline-from-left cursor-pointer'>
                   Process
-                </a>
+                </Link>
                 {/* Services */}
-                <a href='#Services' className='Desktop-hvr-underline-from-left'>
+                <Link to='Services' smooth={true} duration={1000} className='Desktop-hvr-underline-from-left cursor-pointer'>
                   Services
-                </a>
+                </Link>
                 {/* Hire Me */}
-                <a href='#Contact' className='Desktop-hvr-underline-from-left'>
+                <Link to='Contact' smooth={true} duration={1000} className='Desktop-hvr-underline-from-left cursor-pointer'>
                   Hire Me
-                </a>
+                </Link>
               </div>
             </div>
           </nav>
