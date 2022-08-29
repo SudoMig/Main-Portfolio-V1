@@ -16,7 +16,7 @@ function AboutsUs() {
   };
 
   return (
-    <div className=''>
+    <div id='AboutUs' className=''>
       <div className='block md:hidden '>
         <SideNav />
       </div>
@@ -56,7 +56,7 @@ function AboutsUs() {
               />
             </div>
           </div>
-          <div className='flex justify-center mt-24 mb-24 sm:mt-40 sm:mb-48 font-semibold text-3xl text-PrimaryBlue sm:text-white '>
+          <div id='ProcessOverview' className='flex justify-center mt-24 mb-24 sm:mt-40 sm:mb-48 font-semibold text-3xl text-PrimaryBlue sm:text-white '>
             Process Overview
           </div>
           <div className='hidden md:block'>

@@ -8,7 +8,7 @@ const Services = () => {
   const [active, setActive] = useState(0);
 
   return (
-    <div className='bg-black radiantServicesBG w-full'>
+    <div id='Services' className='bg-black radiantServicesBG w-full'>
       <Container>
         <div className='text-white'>
           <div className='flex justify-center pt-24 md:pt-20 sm:pt-56 mb-4 md:mb-8 font-semibold text-3xl text-PrimaryBlue'>

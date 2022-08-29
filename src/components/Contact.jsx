@@ -9,7 +9,7 @@ import ContactForm from '../ContactForm';
 const Contact = () => {
   return (
     <>
-      <div className='relative overflow-hidden bg-black h-MobileContactBGImage lg:h-full'>
+      <div id='Contact' className='relative overflow-hidden bg-black h-MobileContactBGImage lg:h-full'>
         <div className=''>
           <div className='hidden lg:block z-0 '>
             <img

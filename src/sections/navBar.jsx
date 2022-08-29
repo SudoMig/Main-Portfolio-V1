@@ -16,21 +16,21 @@ function navBar(props) {
               <div className='space-x-6 md:space-x-14 lg:space-x-32'>
                 {/* About */}
                 <a
-                  href='/'
+                  href='#AboutUs'
                   className='Desktop-hvr-underline-from-left '
                 >
                   About
                 </a>
                 {/* Process */}
-                <a href='/' className='Desktop-hvr-underline-from-left'>
+                <a href='#ProcessOverview' className='Desktop-hvr-underline-from-left'>
                   Process
                 </a>
                 {/* Services */}
-                <a href='/' className='Desktop-hvr-underline-from-left'>
+                <a href='#Services' className='Desktop-hvr-underline-from-left'>
                   Services
                 </a>
                 {/* Hire Me */}
-                <a href='/' className='Desktop-hvr-underline-from-left'>
+                <a href='#Contact' className='Desktop-hvr-underline-from-left'>
                   Hire Me
                 </a>
               </div>
