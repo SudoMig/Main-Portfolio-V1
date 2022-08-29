@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Divide as Hamburger } from 'hamburger-react'
+import {Link } from 'react-scroll'
 import '../index.css';
 
 const SideNav = () => {
   const NavItems = [
-    { name: 'About', href: '' },
-    { name: 'Services' },
-    { name: 'Process' },
-    { name: 'Hire Me' },
+    { name: 'About', to: 'AboutUs' },
+    { name: 'Services', to: 'ProcessOverview' },
+    { name: 'Process', to: 'Services'},
+    { name: 'Hire Me', to: 'Contact'  },
   ];
 
   const NavBarOpen =
@@ -34,7 +35,7 @@ const SideNav = () => {
   return (
     <div>
       <div>
-        <div className=''>
+        <div>
           <button className='z-50 absolute right-10 top-10 text-white '>
             <Hamburger toggled={isOpen} toggle={NavBarState}  className='w-10 h-10' />
           </button>
@@ -47,12 +48,12 @@ const SideNav = () => {
           }
         >
           <div className='flex flex-col items-center text-center h-screen text-white'>
-            <div className='pt-24'>
+            <div className='flex flex-col py-24'>
               {NavItems.map((item) => {
                 return (
-                  <p className='pt-6 pb-2 font-semibold text-xl hvr-underline-from-left' key={item.name}>
-                    {item.name}{' '}
-                  </p>
+                  <Link to={item.to} smooth={true} duration={1000} className='pt-6 pb-2 font-semibold text-xl hvr-underline-from-left' key={item.name} onClick={NavBarState} >
+                    {item.name}
+                  </Link>
                 );
               })}
             </div>
