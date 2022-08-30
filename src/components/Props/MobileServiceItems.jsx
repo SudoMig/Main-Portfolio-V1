@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import * as Style from '../Styles/AccordionStyle';
 import PropTypes from 'prop-types';
 import { RiArrowDownSLine } from 'react-icons/ri';
+import { Rotate } from 'hamburger-react';
 
 const MobileServiceItems = (props) => {
   let indexPlus;
@@ -10,6 +11,8 @@ const MobileServiceItems = (props) => {
     indexPlus = index + 1;
     return indexPlus;
   };
+const [isOpen, setIsOpen] = useState(false)
+const buttonRef = useRef(null)
 
   let background_image = '';
   if (props.index === 0) {
@@ -22,15 +25,20 @@ const MobileServiceItems = (props) => {
     background_image = 'bg-Others';
   }
 
-  // const AccordionState = () => {
+  useEffect(() => {
+    setIsOpen(true)
+  }, [props.index])
 
-  // }
+  const 
 
   return (
     <div className='max-w-8xl mx-auto'>
       <div className='flex flex-col '>
         <div
-          onClick={() => props.setActive(props.index)}
+          onClick={() => {
+            props.setActive(props.index);
+            setIsOpen(!isOpen)
+          } }
           className={`bg-cover bg-center flex-initial w-full h-52 cursor-pointer md:cursor-auto	
               ${background_image}`}
         >
@@ -50,14 +58,14 @@ const MobileServiceItems = (props) => {
           <div className='relative'>
             <div className='font-semibold text-white'>
               
-              <RiArrowDownSLine className='absolute bottom-0 right-4 w-10 h-10' />
+              {/* <RiArrowDownSLine className={props.active ? 'rotate-180 absolute bottom-0 right-4 w-10 h-10 transition-all duration-700 ease-in-out' : 'absolute bottom-0 right-4 w-10 h-10 transition-all duration-700 ease-out'} /> */}
             </div>
           </div>
         </div>
         <div
           className={`box-content w-[28rem] h-0 text-justify text-opacity-0 transform duration-700 ease-out overflow-hidden
             ${
-              props.active === props.index
+              props.active === props.index && isOpen
                 ? 'bg-blue-900 bg-opacity-30 pt-4 pb-40 px-6 text-opacity-100 text-white'
                 : ' h-0 pointer-events-none'
             }
