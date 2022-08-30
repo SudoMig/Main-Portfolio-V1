@@ -16,7 +16,7 @@ return (
     <Container>
       <div className='pt-24 text-lg text-white font-base'>Design Templates &</div>
     <div className='text-blue-600 text-3xl font-semibold' >Recent Projects</div>
-     <div className='flex flex-col md:flex-row md:justify-evenly items-center space-x-6'>
+     <div className='flex flex-col lg:flex-row md:justify-evenly items-center space-x-6'>
      { ProjectData.map((items, index) => (
         <ProjectsItems
         key={index}
