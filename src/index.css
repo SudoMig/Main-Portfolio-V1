@@ -487,7 +487,7 @@ code {
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  transition-duration: 0.8s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   border-radius: 4px;
