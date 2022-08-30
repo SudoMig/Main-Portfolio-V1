@@ -5,13 +5,13 @@ import WorkflowData from './Data/WorkFlowData';
 
 const Workflow = () => {
   const callback = function (entries) {
-    entries.forEach((entry, index) => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add('expand');
-        entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out w-36'
+        entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out w-24 md:w-36'
       } else {
         entry.target.classList.remove('expand');
-        entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out  w-0'
+        entry.target.firstChild.firstChild.className = 'transition-all duration-700 ease-in-out w-0'
       }
     });
   };
