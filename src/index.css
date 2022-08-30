@@ -169,58 +169,6 @@ code {
       Hire ME BUTTON ---> BUTTON ONE
 ========================
 */
-/* .btn-one {
-  color: #FFF;
-  transition: all 0.3s;
-  position: relative;
-  padding: 10px 16px 10px;
-}
-
-.btn-one span {
-  transition: all 0.3s;
-}
-.btn-one::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-  border-top-style: solid;
-  border-bottom-style: solid;
-  border-top-color: rgb(71, 83, 253);
-  border-bottom-color: rgb(71, 83, 253);
-  transform: scale(0.1, 1);
-}
-.btn-one:hover span {
-  letter-spacing: 2px;
-}
-.btn-one:hover::before {
-  opacity: 1; 
-  transform: scale(1, 1); 
-}
-.btn-one::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  transition: all 0.3s;
-  background-color: rgba(71, 83, 253, 0.123);
-
-}
-.btn-one:hover::after {
-  opacity: 0; 
-  transform: scale(0.1, 1);
-}
- */
 
 
 /* Rectangle In */
@@ -276,48 +224,6 @@ code {
 */
 
 
-
-/* .btn-two {
-  color: #FFF;
-  transition: all 0.5s;
-  position: relative;
-}
-.btn-two::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-color: transparent;
-  border: 2px solid rgba(71, 83, 253, 0.123);
-  transition: all 0.3s;
-}
-.btn-two:hover::before {
-  opacity: 0 ;
-  transform: scale(0.5,0.5);
-}
-.btn-two::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.3s;
-  border: 2px solid rgba(71, 83, 253, 0.123);
-  transform: scale(1.2,1.2);
-}
-.btn-two:hover::after {
-  opacity: 1;
-  transform: scale(1,1);
-} */
-
-
-
 /* Rectangle Out */
 .hvr-rectangle-out {
   display: inline-block;
@@ -360,46 +266,6 @@ code {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-
-
-
-
-
-
-/* SHINE BUTTON */
-
-/* 
-.btn {
-  text-decoration: none;
-  border: 1px solid rgb(71, 83, 253);
-  position: relative;
-  overflow: hidden;
-}
-
-
-.btn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgb(71, 83, 253),
-    transparent
-  );
-  transition: all 650ms;
-}
-
-.btn:hover:before {
-  left: 100%;
-} */
-
-
-
-
 
 /* 
 ========================
@@ -513,7 +379,80 @@ code {
 
 
 
-/* OLD BUTTON GLOW ON HOVER */
+
+
+
+/* FORM ANIMATIONS */
+
+
+
+
+
+/* OLD CODE  */
+
+/* 
+========================
+      OLD Hire ME BUTTON ---> BUTTON ONE
+========================
+*/
+/* .btn-one {
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+  padding: 10px 16px 10px;
+}
+
+.btn-one span {
+  transition: all 0.3s;
+}
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgb(71, 83, 253);
+  border-bottom-color: rgb(71, 83, 253);
+  transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+.btn-one:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+}
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(71, 83, 253, 0.123);
+
+}
+.btn-one:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+}
+ */
+
+
+
+
+
+ /*  OLD BUTTON GLOW ON HOVER */ 
 
 /* .glow-on-hover {
     width: 220px;
@@ -576,42 +515,103 @@ code {
 } */
 
 
-/* FORM ANIMATIONS */
 
 
+/* OLD RESUME BUTTON */
 
-
-
-
-
-
-/* TEST */
-
-/* Bubble Top */
-.hvr-bubble-top {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+/* .btn-two {
+  color: #FFF;
+  transition: all 0.5s;
   position: relative;
 }
-.hvr-bubble-top:before {
-  pointer-events: none;
-  position: absolute;
-  z-index: -1;
+.btn-two::before {
   content: '';
-  border-style: solid;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  left: calc(50% - 10px);
+  position: absolute;
   top: 0;
-  border-width: 0 10px 10px 10px;
-  border-color: transparent transparent #e1e1e1 transparent;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: transparent;
+  border: 2px solid rgba(71, 83, 253, 0.123);
+  transition: all 0.3s;
 }
-.hvr-bubble-top:hover:before, .hvr-bubble-top:focus:before, .hvr-bubble-top:active:before {
-  -webkit-transform: translateY(-10px);
-  transform: translateY(-10px);
+.btn-two:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
 }
+.btn-two::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 2px solid rgba(71, 83, 253, 0.123);
+  transform: scale(1.2,1.2);
+}
+.btn-two:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+} */
+
+
+
+
+/* OLD HIRE ME BUTTON */
+
+/* .btn-one {
+  color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+  padding: 10px 16px 10px;
+}
+
+.btn-one span {
+  transition: all 0.3s;
+}
+.btn-one::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgb(71, 83, 253);
+  border-bottom-color: rgb(71, 83, 253);
+  transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+.btn-one:hover::before {
+  opacity: 1; 
+  transform: scale(1, 1); 
+}
+.btn-one::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(71, 83, 253, 0.123);
+
+}
+.btn-one:hover::after {
+  opacity: 0; 
+  transform: scale(0.1, 1);
+}
+ */

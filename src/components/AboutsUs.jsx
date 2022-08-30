@@ -41,12 +41,12 @@ function AboutsUs() {
                 </p>
               </div>
               <div className='flex justify-evenly mt-10 text-white text-lg text-white font-base font-semibold'>
-                <button className='hvr-rectangle-in h-11 w-28 '>
+                <button className='hvr-rectangle-out h-11 w-28 '>
                 <Link to='Contact' smooth={true} duration={1000} className='whitespace-nowrap cursor-pointer'>
                   Hire Me
                 </Link>
                 </button>
-                <button className='hvr-rectangle-out h-11 w-28 '>
+                <button className=' hvr-rectangle-in h-11 w-28 '>
                   <Link to='' smooth={true} duration={1000} className='whitespace-nowrap '>
                   Resume
                   </Link>
