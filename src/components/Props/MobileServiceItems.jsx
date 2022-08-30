@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import * as Style from '../Styles/AccordionStyle';
 import PropTypes from 'prop-types';
+import { RiArrowDownSLine } from 'react-icons/ri';
 
 const MobileServiceItems = (props) => {
   let indexPlus;
@@ -21,11 +22,15 @@ const MobileServiceItems = (props) => {
     background_image = 'bg-Others';
   }
 
+  // const AccordionState = () => {
+
+  // }
+
   return (
     <div className='max-w-8xl mx-auto'>
       <div className='flex flex-col '>
         <div
-        onClick={() => props.setActive(props.index)}
+          onClick={() => props.setActive(props.index)}
           className={`bg-cover bg-center flex-initial w-full h-52 cursor-pointer md:cursor-auto	
               ${background_image}`}
         >
@@ -42,8 +47,11 @@ const MobileServiceItems = (props) => {
               </button>
             </div>
           </div>
-          <div className='flex justify-end'>
-            <div className='pr-12 font-semibold text-white'> ^</div>
+          <div className='relative'>
+            <div className='font-semibold text-white'>
+              
+              <RiArrowDownSLine className='absolute bottom-0 right-4 w-10 h-10' />
+            </div>
           </div>
         </div>
         <div
