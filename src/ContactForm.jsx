@@ -20,7 +20,6 @@ const ContactForm = () => {
       </>
     );
   }
-
   return (
     <form
       action='https://public.herotofu.com/v1/94655b00-cb2d-11ec-a557-034a17e2da28'
