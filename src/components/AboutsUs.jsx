@@ -5,7 +5,6 @@ import AccordionWrapper from './AccordionWrapper';
 import AccordionItem from './Props/AccordionItem';
 import MobileAccordionItem from './Props/MobileAccordionItem';
 import Container from '../sections/Container';
-import './Styles/Accordion.css';
 import SideNav from '../sections/SideNav';
 import {Link } from 'react-scroll'
 
@@ -66,7 +65,7 @@ function AboutsUs() {
           </div>
           <div className='hidden md:block'>
             <div className='flex justify-evenly items-center '>
-              <div className='w-[30rem]'>
+              <div className='w-1/3'>
                 <ProcessImages image={image} />
               </div>
               <AccordionWrapper changeImage={changeImage}>

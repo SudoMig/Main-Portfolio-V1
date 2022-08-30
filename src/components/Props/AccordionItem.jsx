@@ -3,7 +3,6 @@ import Container from '../../sections/Container';
 import PropTypes from 'prop-types';
 import { AccordionContext } from '../AccordionWrapper';
 import * as Style from '../Styles/AccordionStyle';
-import '../Styles/Accordion.css';
 
 const AccordionItem = (props) => {
   let indexPlus;

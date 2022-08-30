@@ -1,12 +1,11 @@
-import './Accordion.css';
-import '../../index.css'
+
 
 
 // Process Overview Desktop
 
 export const Activate = '';
 export const Inactive = '';
-export const PanelOpen = 'box-content w-96 transition-opacity opacity-100 duration-1000 ease-out text-white font-medium';
+export const PanelOpen = 'box-content w-[21rem] transition-opacity opacity-100 duration-1000 ease-out text-white font-medium';
 export const PanelClose = 'transition-opacity opacity-0 box-content w-0 h-4';
 export const ActiveImg = 'w-72 '
 export const InactiveImg = 'hidden'
