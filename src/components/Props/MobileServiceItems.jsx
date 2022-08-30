@@ -11,8 +11,8 @@ const MobileServiceItems = (props) => {
     indexPlus = index + 1;
     return indexPlus;
   };
-const [isOpen, setIsOpen] = useState(false)
-const buttonRef = useRef(null)
+  const [isOpen, setIsOpen] = useState(false);
+  const buttonRef = useRef(null);
 
   let background_image = '';
   if (props.index === 0) {
@@ -26,10 +26,10 @@ const buttonRef = useRef(null)
   }
 
   useEffect(() => {
-    setIsOpen(true)
-  }, [props.index])
+    setIsOpen(true);
+  }, [props.active]);
 
-  const 
+  useEffect(() => {}, [isOpen]);
 
   return (
     <div className='max-w-8xl mx-auto'>
@@ -37,9 +37,9 @@ const buttonRef = useRef(null)
         <div
           onClick={() => {
             props.setActive(props.index);
-            setIsOpen(!isOpen)
-          } }
-          className={`bg-cover bg-center flex-initial w-full h-52 cursor-pointer md:cursor-auto	
+            setIsOpen(!isOpen);
+          }}
+          className={`relative bg-cover bg-center flex-initial w-full h-52 cursor-pointer md:cursor-auto	
               ${background_image}`}
         >
           <div className='flex pt-4'>
@@ -54,20 +54,25 @@ const buttonRef = useRef(null)
                 <span className=''>{props.title}</span>
               </button>
             </div>
-          </div>
-          <div className='relative'>
-            <div className='font-semibold text-white'>
-              
-              {/* <RiArrowDownSLine className={props.active ? 'rotate-180 absolute bottom-0 right-4 w-10 h-10 transition-all duration-700 ease-in-out' : 'absolute bottom-0 right-4 w-10 h-10 transition-all duration-700 ease-out'} /> */}
+            <div className='absolute right-0 top-1/2'>
+              <div className='font-semibold text-blue-100'>
+                <RiArrowDownSLine
+                  className={
+                    props.active === props.index && isOpen
+                      ? ' w-10 h-10 transition-all duration-700 ease-in-out'
+                      : 'rotate-180 w-10 h-10 transition-all duration-700 ease-out'
+                  }
+                />
+              </div>
             </div>
           </div>
         </div>
         <div
-          className={`box-content w-[28rem] h-0 text-justify text-opacity-0 transform duration-700 ease-out overflow-hidden
+          className={`w-full px-2  h-0 text-justify text-opacity-0 transform duration-700 ease-out overflow-hidden whitespace-normal	
             ${
               props.active === props.index && isOpen
-                ? 'bg-blue-900 bg-opacity-30 pt-4 pb-40 px-6 text-opacity-100 text-white'
-                : ' h-0 pointer-events-none'
+                ? 'bg-blue-900 bg-opacity-30 pt-2 h-40 text-opacity-100 text-white'
+                : 'pointer-events-none'
             }
           `}
         >
