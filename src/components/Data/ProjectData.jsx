@@ -1,6 +1,6 @@
 import Design from "../../Images/NaureOlavina.png";
 import Devleopment from "../../Images/DevelopmentProcess.png";
-import ClientProcess from "../../Images/ClientProcess.png";
+import ClientProcess from "../../Images/CoffeeShopp.png";
 
 const ProjectData = [
   {
