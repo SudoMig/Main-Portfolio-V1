@@ -37,7 +37,7 @@ const WorkFlowItems = (props) => {
       <p className='pr-4 pb-2 md:pb-0 text-xl text-gray-200 font-bold'>
         {props.num}
       </p>
-      <div className='js-show-on-scroll flex md:h-48 p-2'>
+      <div className='js-show-on-scroll flex md:h-40 p-2'>
         <div className='flex'>
           <div className='flex'>
             <div

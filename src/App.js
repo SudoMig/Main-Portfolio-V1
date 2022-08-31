@@ -3,7 +3,7 @@ import NavBar from "./sections/navBar";
 import BackToTop from "./components/BackToTop";
 import Header from "./components/Header";
 import AboutsUs from "./components/AboutsUs";
-import Techonolgies from "./components/Techonolgies";
+import CloudLogos from "./components/CloudLogos";
 import Services from "./components/Services";
 import Workflow from "./components/Workflow";
 import Projects from "./components/Projects";
@@ -21,7 +21,7 @@ function App() {
       <BackToTop />
       <Header />
       <AboutsUs />
-      <Techonolgies />
+      <CloudLogos />
       <Services />
       <Workflow />
       <Projects />
