@@ -1,4 +1,4 @@
-import Design from "../../Images/DesignProcess.png";
+import Design from "../../Images/NaureOlavina.png";
 import Devleopment from "../../Images/DevelopmentProcess.png";
 import ClientProcess from "../../Images/ClientProcess.png";
 
