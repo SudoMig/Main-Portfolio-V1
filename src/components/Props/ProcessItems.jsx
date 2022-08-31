@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { AccordionContext } from '../AccordionWrapper';
-import AccordionItem from '../AccordionItem';
+
 
 function ChangeImage(props) {
   const { active, setActive } = useContext(AccordionContext);
