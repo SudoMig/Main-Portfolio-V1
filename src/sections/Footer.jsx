@@ -16,28 +16,28 @@ const navigation = {
   social: [
     {
       name: 'Dribbble',
-      href: '#',
+      href: 'https://dribbble.com/miguel33',
       icon: (props) => (
         <RiDribbbleFill className='w-10 h-7 hover:fill-[#EA4C89] hover:-translate-y-3 transition ease-out duration-300' />
       ),
     },
     {
       name: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/miguel-louis-139949238/',
       icon: (props) => (
         <SiLinkedin className='w-10 h-7 hover:fill-[#0A66C2] hover:-translate-y-3 transition ease-out duration-300' />
       ),
     },
     {
       name: 'GitHub',
-      href: '#',
+      href: 'https://github.com/SudoMig',
       icon: (props) => (
         <VscGithub className='w-10 h-7 hover:fill-[#6e5494] hover:-translate-y-3 transition ease-out duration-300' />
       ),
     },
     {
       name: 'Freelancer',
-      href: '#',
+      href: 'https://www.freelancer.com/u/mu97',
       icon: (props) => (
         <SiFreelancer className='w-10 h-7 hover:fill-[#29B2FE] hover:-translate-y-3 transition ease-out duration-300' />
       ),
@@ -66,11 +66,13 @@ export default function Footer() {
           ))}
         </nav>
         <div>
-          <div className='flex justify-center items-center mt-8'>
+          <div className='flex justify-center items-center mt-6'>
             {navigation.social.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
+                target='_blank'
+                rel='noreferrer'
                 className='text-gray-400 hover:text-gray-500 px-2'
               >
                 <span className='sr-only'>{item.name}</span>
@@ -84,13 +86,13 @@ export default function Footer() {
             <img className='object-scale-down w-20' src={require('../Images/HappyMemojiIcon.png')} alt="" />
           </div> */}
           <div>
-            <p className='mt-8 text-center text-base text-blue-100'>
+            <p className='mt-6 text-center text-base text-blue-100'>
               Copyright &copy; {new Date().getFullYear()}. All rights reserved.
             </p>
           </div>
           <div>
-            <span className='flex justify-center items-center text-blue-100 font-semibold mt-8'>
-            Created by Miguel Louis ❤️
+            <span className='flex justify-center items-center text-blue-100 font-semibold mt-6'>
+              Created by Miguel Louis ❤️
             </span>
           </div>
         </div>
