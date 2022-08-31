@@ -30,6 +30,10 @@ function navBar(props) {
                 <Link to='Services' smooth={true} duration={1000} className='Desktop-hvr-underline-from-left cursor-pointer'>
                   Services
                 </Link>
+                 {/* Projects */}
+                 <Link to='Projects' smooth={true} duration={1000} className='Desktop-hvr-underline-from-left cursor-pointer'>
+                  Projects
+                </Link>
                 {/* Hire Me */}
                 <Link to='Contact' smooth={true} duration={1000} className='Desktop-hvr-underline-from-left cursor-pointer'>
                   Hire Me
