@@ -19,28 +19,28 @@ const navigation = {
       name: 'Dribbble',
       href: '#',
       icon: (props) => (
-        <RiDribbbleFill className='w-8 h-8'/>
+        <RiDribbbleFill className='w-10 h-8 hover:fill-[#EA4C89] hover:-translate-y-3 transition ease-out duration-300'/>
       ),
     },
     {
       name: 'LinkedIn',
       href: '#',
       icon: (props) => (
-        <SiLinkedin className='w-8 h-8'/>
+        <SiLinkedin className='w-10 h-8 hover:fill-[#0A66C2] hover:-translate-y-3 transition ease-out duration-300'/>
       ),
     },
     {
       name: 'GitHub',
       href: '#',
       icon: (props) => (
-        <VscGithub className='w-8 h-8'/>
+        <VscGithub className='w-10 h-8 hover:fill-[#6e5494] hover:-translate-y-3 transition ease-out duration-300'/>
       ),
     },
     {
       name: 'Freelancer',
       href: '#',
       icon: (props) => (
-        <SiFreelancer className='w-8 h-8'/>
+        <SiFreelancer className='w-10 h-8 hover:fill-[#29B2FE] hover:-translate-y-3 transition ease-out duration-300'/>
       ),
     },
     
@@ -59,7 +59,7 @@ export default function Footer() {
               <Link
                 key={item.name}
                 href={item.href}
-                className='text-blue-100 hover:text-gray-500 px-1 '
+                className='text-gray-400 hover:text-gray-500 px-1 '
               >
                 <span className='sr-only'>{item.name}</span>
                 <item.icon className='h-6 w-6' aria-hidden='true' />
@@ -83,8 +83,7 @@ export default function Footer() {
           </nav>
           <div>
             <p className='mt-8 text-center text-base text-blue-100'>
-              Copyright &copy; {new Date().getFullYear()}, Miguel Louis, All
-              rights reserved.
+              Copyright &copy; {new Date().getFullYear()}. All rights reserved.
             </p>
           </div>
         </div>
