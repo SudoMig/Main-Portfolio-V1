@@ -16,7 +16,7 @@ const CloudLogos = () => {
         >
           Modern technologies used to build your website
         </h1>
-        <div className='grid grid-cols-3 md:grid-cols-6 lg:grid-cols-6 pt-16'>
+        <div className='grid grid-cols-3 md:grid-cols-6 lg:grid-cols-6 pt-10 md:pt-16'>
           <a
             href='https://reactjs.org/'
             className='group flex justify-center md:col-span-2 lg:col-span-1 py-6'
@@ -25,7 +25,7 @@ const CloudLogos = () => {
            
           >
             <ReactLogo
-              className='h-14 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#00d8ff] group-hover:-translate-y-3 transition ease-out duration-300'
+              className='h-12 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#00d8ff] group-hover:-translate-y-3 transition ease-out duration-300'
               alt='React'
             />
           </a>
@@ -38,7 +38,7 @@ const CloudLogos = () => {
             
           >
             <CSS3Logo
-              className='h-14 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#21759b] group-hover:-translate-y-3 transition ease-out duration-300'
+              className='h-12 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#21759b] group-hover:-translate-y-3 transition ease-out duration-300'
               alt='CSS'
             />
           </a>
@@ -51,7 +51,7 @@ const CloudLogos = () => {
             
           >
             <JSLogo
-              className='h-14 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#F7DF1E] group-hover:-translate-y-3 transition ease-out duration-300'
+              className='h-12 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#F7DF1E] group-hover:-translate-y-3 transition ease-out duration-300'
               alt='JavaScript'
             />
           </a>
@@ -64,7 +64,7 @@ const CloudLogos = () => {
             
           >
             <FigmaLogo
-              className='h-14 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#FF7262] group-hover:-translate-y-3 transition ease-out duration-300'
+              className='h-12 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#FF7262] group-hover:-translate-y-3 transition ease-out duration-300'
               alt='Figma'
             />
           </a>
@@ -77,7 +77,7 @@ const CloudLogos = () => {
             
           >
             <NetlifyLogo
-              className='h-14 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#20c6b7] group-hover:-translate-y-3 transition ease-out duration-300'
+              className='h-12 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#20c6b7] group-hover:-translate-y-3 transition ease-out duration-300'
               alt='Netlify'
             />
           </a>
@@ -90,7 +90,7 @@ const CloudLogos = () => {
            
           >
             <TailwindLogo
-              className='h-14 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#06B6D4] group-hover:-translate-y-3 transition ease-out duration-300'
+              className='h-12 md:h-14 sm:h-16 fill-gray-400 group-hover:fill-[#06B6D4] group-hover:-translate-y-3 transition ease-out duration-300'
               alt='Tailwind'
             />
           </a>

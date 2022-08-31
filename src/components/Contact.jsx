@@ -9,8 +9,8 @@ import ContactForm from '../ContactForm';
 const Contact = () => {
   return (
     <>
-      <div id='Contact' className='relative overflow-hidden bg-black h-MobileContactBGImage lg:h-full'>
-        <div className=''>
+      <div id='Contact' className='relative overflow-hidden bg-black h-MobileContactBGImage h-full lg:h-full pt-12 pb-12 md:pt-0 md:pb-0 z-10'>
+        <div>
           <div className='hidden lg:block z-0 '>
             <img
               className='absolute w-[12rem] left-[-6rem] bottom-[24rem] md:w-1/3 md:left-[-4rem] md:bottom-1/2 '
@@ -28,8 +28,8 @@ const Contact = () => {
         {/* Mobile */}
 
         <Container resolution>
-          <div className='flex flex-col justify-center h-screen'>
-            <h1 className='hidden md:block z-50 text-blue-600 font-semibold text-4xl md:text-5xl pl-6 md:pl-12'>
+          <div className='flex flex-col justify-center h-full lg:h-screen'>
+            <h1 className='hidden md:block z-40 text-blue-600 font-semibold text-4xl md:text-5xl pl-6 md:pl-12'>
               Contact Me.
             </h1>
             <div className=''>
@@ -56,39 +56,6 @@ const Contact = () => {
             </div>
           </div>
         </Container>
-
-        {/* Website */}
-        {/* <div className='hidden md:block'>
-          <Container narrow5xl>
-            <div className='flex flex-col justify-center h-screen'>
-              <h1 className='z-50 text-blue-600 font-semibold md:text-5xl pl-24'>
-                Contact Me.
-              </h1>
-              <div className=''>
-                <div className='flex justify-center'>
-                  <div className='z-50 bg-black border-2 border-blue-600 w-full h-[30rem]'>
-                    <div className='flex md:justify-evenly items-center h-full '>
-                      <div className='text-white flex-inital'>
-                        <img
-                          className='object-scale-down w-32 pt-8 sm:pl-0 sm:pt-0 sm:w-full'
-                          src={Mailbox}
-                          alt=''
-                        />
-                      </div>
-                      <div className='text-white flex-inital'>
-                        <div className='font-semibold md:text-lg sm:text-2xl text-white pt-4 sm:pt-12'>
-                          <div className='md:mt-4 md:mb-2'>Let's Talk. </div>
-                          <div className=''>Enter your project Details.</div>
-                          <ContactForm/>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </Container>
-        </div> */}
       </div>
     </>
   );
