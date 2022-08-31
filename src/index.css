@@ -17,9 +17,7 @@ code {
   font-family: 'Montserrat';
 }
 
-
 /* BACKGROUND */
-
 
 .radiantBG {
   width: 1440px;
@@ -46,10 +44,9 @@ code {
 }
 
 .radiantWorkFlow {
-/*   
+  /*   
   width: 1440px;
   height: 1807px; */
-  
 
   background: radial-gradient(
         42.55% 42.6% at 30.76% 30.48%,
@@ -67,10 +64,8 @@ code {
 }
 
 .radiantWorkFlowMobile {
-  
   /* width: 1440px;
   height: 1260px; */
-  
 
   background: radial-gradient(
         62.55% 51.6% at 30.76% 30.48%,
@@ -87,21 +82,23 @@ code {
     #000000;
 }
 
+.footerBG {
+  background: radial-gradient(
+      62.36% 62.36% at 50% 96.04%,
+      rgba(11, 51, 184, 0.2) 12.39%,
+      rgba(15, 41, 114, 0.072) 21.89%,
+      rgba(29, 78, 216, 0.2) 59.74%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    #000000;
+}
 
 /* TRANSITIONS */
 
-
-
-
-
-
 /* HOVER ANIMATIONS */
 
-
-
- /* Underline From Left */
+/* Underline From Left */
 .hvr-underline-from-left {
-  
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -110,13 +107,13 @@ code {
   overflow: hidden;
 }
 .hvr-underline-from-left:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2563EB;
+  background: #2563eb;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -125,12 +122,14 @@ code {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
   right: 0;
 }
 
- /* Desktop Underline From Left */
- .Desktop-hvr-underline-from-left {
+/* Desktop Underline From Left */
+.Desktop-hvr-underline-from-left {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -139,7 +138,7 @@ code {
   overflow: hidden;
 }
 .Desktop-hvr-underline-from-left:before {
-  content: "";
+  content: '';
   border-radius: 25px;
   position: absolute;
   z-index: -1;
@@ -147,7 +146,7 @@ code {
   right: 100%;
   bottom: 0;
   top: 20px;
-  background: #2563EB;
+  background: #2563eb;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -156,20 +155,17 @@ code {
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
-.Desktop-hvr-underline-from-left:hover:before, .Desktop-hvr-underline-from-left:focus:before, .Desktop-hvr-underline-from-left:active:before {
+.Desktop-hvr-underline-from-left:hover:before,
+.Desktop-hvr-underline-from-left:focus:before,
+.Desktop-hvr-underline-from-left:active:before {
   right: 0;
 }
-
-
-
-
 
 /* 
 ========================
       Hire ME BUTTON ---> BUTTON ONE
 ========================
 */
-
 
 /* Rectangle In */
 .hvr-rectangle-in {
@@ -184,11 +180,11 @@ code {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border: solid 2px rgba(71, 83, 253, 0.123) ;
+  border: solid 2px rgba(71, 83, 253, 0.123);
   border-radius: 4px;
 }
 .hvr-rectangle-in:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: 0;
@@ -203,26 +199,26 @@ code {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out; 
+  transition-timing-function: ease-in-out;
   border-radius: 4px;
 }
-.hvr-rectangle-in:hover, .hvr-rectangle-in:focus, .hvr-rectangle-in:active {
+.hvr-rectangle-in:hover,
+.hvr-rectangle-in:focus,
+.hvr-rectangle-in:active {
   color: white;
 }
-.hvr-rectangle-in:hover:before, .hvr-rectangle-in:focus:before, .hvr-rectangle-in:active:before {
+.hvr-rectangle-in:hover:before,
+.hvr-rectangle-in:focus:before,
+.hvr-rectangle-in:active:before {
   -webkit-transform: scale(0);
   transform: scale(0);
 }
-
-
-
 
 /* 
 ========================
       RESUME BUTTON ---> btn
 ========================
 */
-
 
 /* Rectangle Out */
 .hvr-rectangle-out {
@@ -237,11 +233,11 @@ code {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border: solid 2px rgba(71, 83, 253, 0.123) ;
+  border: solid 2px rgba(71, 83, 253, 0.123);
   border-radius: 4px;
 }
 .hvr-rectangle-out:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: 0;
@@ -259,10 +255,14 @@ code {
   transition-timing-function: ease-out;
   border-radius: 4px;
 }
-.hvr-rectangle-out:hover, .hvr-rectangle-out:focus, .hvr-rectangle-out:active {
+.hvr-rectangle-out:hover,
+.hvr-rectangle-out:focus,
+.hvr-rectangle-out:active {
   color: white;
 }
-.hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
+.hvr-rectangle-out:hover:before,
+.hvr-rectangle-out:focus:before,
+.hvr-rectangle-out:active:before {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
@@ -272,7 +272,6 @@ code {
       PROJECTS BUTTON 
 ========================
 */
-
 
 /* Bounce To Right */
 .hvr-bounce-to-right {
@@ -287,10 +286,9 @@ code {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   border-radius: 4px;
-  
 }
 .hvr-bounce-to-right:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: 0;
@@ -309,12 +307,15 @@ code {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   border-radius: 4px;
-  
 }
-.hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
-  color: #eff6ff
+.hvr-bounce-to-right:hover,
+.hvr-bounce-to-right:focus,
+.hvr-bounce-to-right:active {
+  color: #eff6ff;
 }
-.hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
+.hvr-bounce-to-right:hover:before,
+.hvr-bounce-to-right:focus:before,
+.hvr-bounce-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
@@ -326,7 +327,6 @@ code {
       SUBMIT BUTTON 
 ========================
 */
-
 
 /* Bounce To Right */
 .bounce-to-right {
@@ -341,10 +341,9 @@ code {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   border-radius: 4px;
-  
 }
 .bounce-to-right:before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   top: 0;
@@ -363,30 +362,22 @@ code {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   border-radius: 4px;
-  
 }
-.bounce-to-right:hover, .bounce-to-right:focus, .bounce-to-right:active {
-  color: #f1f5f9
+.bounce-to-right:hover,
+.bounce-to-right:focus,
+.bounce-to-right:active {
+  color: #f1f5f9;
 }
-.bounce-to-right:hover:before, .bounce-to-right:focus:before, .bounce-to-right:active:before {
+.bounce-to-right:hover:before,
+.bounce-to-right:focus:before,
+.bounce-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 
-
-
-
-
-
-
-
 /* FORM ANIMATIONS */
-
-
-
-
 
 /* OLD CODE  */
 
@@ -448,11 +439,7 @@ code {
 }
  */
 
-
-
-
-
- /*  OLD BUTTON GLOW ON HOVER */ 
+/*  OLD BUTTON GLOW ON HOVER */
 
 /* .glow-on-hover {
     width: 220px;
@@ -514,9 +501,6 @@ code {
     100% { background-position: 0 0; }
 } */
 
-
-
-
 /* OLD RESUME BUTTON */
 
 /* .btn-two {
@@ -557,9 +541,6 @@ code {
   opacity: 1;
   transform: scale(1,1);
 } */
-
-
-
 
 /* OLD HIRE ME BUTTON */
 
