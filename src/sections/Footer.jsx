@@ -1,7 +1,7 @@
 import { Link } from 'react-scroll';
 import Container from '../sections/Container';
 import { RiDribbbleFill } from 'react-icons/ri';
-import { VscGithub } from 'react-icons/vsc';
+import { VscGithubInverted } from 'react-icons/vsc';
 import { SiLinkedin, SiFreelancer } from 'react-icons/si';
 import '../index.css';
 
@@ -32,7 +32,7 @@ const navigation = {
       name: 'GitHub',
       href: 'https://github.com/SudoMig',
       icon: (props) => (
-        <VscGithub className='w-8 md:w-10 h-7 hover:fill-[#6e5494] hover:-translate-y-3 transition ease-out duration-300' />
+        <VscGithubInverted className='w-8 md:w-10 h-7 hover:fill-[#6e5494] hover:-translate-y-3 transition ease-out duration-300' />
       ),
     },
     {
