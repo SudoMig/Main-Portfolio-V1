@@ -2,10 +2,10 @@
 const navigation = {
     main: [
       { name: 'About', href: '#' },
-      { name: 'Blog', href: '#' },
-      { name: 'Jobs', href: '#' },
-      { name: 'Press', href: '#' },
-      { name: 'Accessibility', href: '#' },
+      { name: 'Process', href: '#' },
+      { name: 'Services', href: '#' },
+      { name: 'Projects', href: '#' },
+      { name: 'Contact', href: '#' },
       { name: 'Partners', href: '#' },
     ],
     social: [
@@ -72,8 +72,13 @@ const navigation = {
       },
     ],
   }
+
+ 
   
   export default function Footer() {
+
+    const currentYear = new Date().getFullYear();
+
     return (
       <footer className="bg-black relative pt-10">
         <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
@@ -94,7 +99,7 @@ const navigation = {
               </a>
             ))}
           </div>
-          <p className="mt-8 text-center text-base text-gray-400">&copy; 2020 Workflow, Inc. All rights reserved.</p>
+          <p className="mt-8 text-center text-base text-gray-400">Copyright &copy; {new Date().getFullYear()}, Miguel Louis,  All rights reserved.</p>
         </div>
       </footer>
     )
