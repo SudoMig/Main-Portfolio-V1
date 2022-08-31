@@ -7,12 +7,11 @@ import '../index.css';
 
 const navigation = {
   main: [
-    { name: 'About', to: '#' },
-    { name: 'Process', to: '#' },
-    { name: 'Services', to: '#' },
-    { name: 'Projects', to: '#' },
-    { name: 'Contact', to: '#' },
-    { name: 'Partners', to: '#' },
+    { name: 'About', to: 'AboutUs' },
+    { name: 'Process', to: 'ProcessOverview' },
+    { name: 'Services', to: 'Services' },
+    { name: 'Projects', to: 'Projects' },
+    { name: 'Contact', to: 'Contact' },
   ],
   social: [
     {
@@ -52,14 +51,13 @@ export default function Footer() {
   return (
     <footer className='bg-black footerBG relative border-2 border-gray-900 py-16'>
       <Container>
-        <nav
-          className='flex justify-center items-center '
-          aria-label='Footer'
-        >
+        <nav className='flex justify-center items-center ' aria-label='Footer'>
           {navigation.main.map((item) => (
             <div key={item.name} className='px-5 py-2'>
               <Link
-                href={item.href}
+                smooth={true}
+                duration={1000}
+                to={item.to}
                 className='text-base text-blue-100 hover:text-blue-600 transition-all duration-300 ease-in-out cursor-pointer'
               >
                 {item.name}
@@ -73,7 +71,7 @@ export default function Footer() {
               <a
                 key={item.name}
                 href={item.href}
-                className='text-gray-400 hover:text-gray-500 px-1'
+                className='text-gray-400 hover:text-gray-500 px-2'
               >
                 <span className='sr-only'>{item.name}</span>
                 <item.icon className='h-6 w-6' aria-hidden='true' />
@@ -89,6 +87,11 @@ export default function Footer() {
             <p className='mt-8 text-center text-base text-blue-100'>
               Copyright &copy; {new Date().getFullYear()}. All rights reserved.
             </p>
+          </div>
+          <div>
+            <span className='flex justify-center items-center text-blue-100 font-semibold mt-8'>
+            Created by Miguel Louis ❤️
+            </span>
           </div>
         </div>
       </Container>
