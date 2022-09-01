@@ -11,13 +11,12 @@ const Services = () => {
     <div id='Services' className='bg-black radiantServicesBG w-full'>
       <Container>
         <div className='text-white'>
-          <div className='flex justify-center pt-24 md:pt-20 sm:pt-56 mb-4 md:mb-8 font-semibold text-3xl text-PrimaryBlue'>
-            CreativeFloww Services
+          <div className='flex justify-center pt-24 md:pt-20 sm:pt-56 mb-4 md:mb-4 font-semibold text-3xl text-PrimaryBlue'>
+            My Services
           </div>
           <div className='flex justify-center text-center'>
-            <div className='box-content w-[35rem]'>
-              I&apos;m the sole proprietor of Creativefloww. A design and
-              develpoment company that build quality and afforable websites.
+            <div className='font-semibold box-content w-[30rem]'>
+              Set of services offered to build and implement the quality website you deserve.
             </div>
           </div>
         </div>
