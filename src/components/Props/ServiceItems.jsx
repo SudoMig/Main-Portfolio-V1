@@ -46,13 +46,12 @@ const ServiceItems = (props) => {
                 Animations are growing in popularity. This may come at the cost
                 of the website's speed. In this instance, it&apos;s vital to
                 undertake the respective approach, including unidirectional
-                components, to ensure speed optimization. In ReactJS, a
+                components to ensure speed optimization. In ReactJS, a
                 functional component approach is recommended.
               </div>
               <div>
                 Whether you already have a design available or need one, I will
-                gladly develop a quality and affordable website in an
-                appropriate language.
+                gladly develop a quality and affordable website.
               </div>
             </div>
           </div>
@@ -68,19 +67,14 @@ const ServiceItems = (props) => {
             </div>
             <div className='box-content md:w-64 lg:w-[29rem] text-blue-50 ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out '>
               <div className='mb-4'>
-                The website design is the first thing any user sees on your
-                website. It can, unfortunately serve as a deterrent or,
-                fortunately, an incentive to browse your website. It has the
-                possibility of serving several purposes, tailored to the
-                client's needs and requirements. Ultimately, it is meant to
-                improve the user experience and target a particular audience. A
-                quality design goes a long way toward establishing trust and
-                professionalism for your company.
+                I understand that clients may have unique needs and requirements
+                that aren&apos;t generally offered. I am happy to accept unique
+                website and design related requests that are within my skill
+                set.
               </div>
               <div>
-                Every respectable website needs a well designed website. Whether
-                you solely need a design template or a website, the option is
-                yours to choose from.
+                Please do not hesitate to contact me via the contact section
+                below for any questions or requests.
               </div>
             </div>
           </div>
@@ -96,19 +90,12 @@ const ServiceItems = (props) => {
             </div>
             <div className='box-content md:w-64 lg:w-[29rem] text-blue-50 ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out '>
               <div className='mb-4'>
-                The website design is the first thing any user sees on your
-                website. It can, unfortunately serve as a deterrent or,
-                fortunately, an incentive to browse your website. It has the
-                possibility of serving several purposes, tailored to the
-                client's needs and requirements. Ultimately, it is meant to
-                improve the user experience and target a particular audience. A
-                quality design goes a long way toward establishing trust and
-                professionalism for your company.
+                Have bugs been bugging your website for a while? Let me know via
+                the contact section below with a brief and detailed description.
               </div>
               <div>
-                Every respectable website needs a well designed website. Whether
-                you solely need a design template or a website, the option is
-                yours to choose from.
+                If it&apos;s within my area of expertise, I will gladly take a
+                look and fix it for the experience.
               </div>
             </div>
           </div>
