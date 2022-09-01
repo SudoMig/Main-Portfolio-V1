@@ -32,7 +32,7 @@ function AboutsUs() {
                   I&apos;m Miguel Louis, an autodicated website developer with
                   an avid passion for ReactJS and CSS frameworks. The outset of
                   my coding journey began with wanting a career that I enjoyed
-                  and brought challenges. I loved the idea of having my own
+                  and that brought challenges. I loved the idea of having my own
                   coding environment and the freedom to express creativity. Now,
                   I'm continuously seeking new ways to broaden my experience and
                   improve my skill set.
