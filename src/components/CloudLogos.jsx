@@ -14,7 +14,7 @@ const CloudLogos = () => {
           className='text-xl text-center text-white font-semibold capitalize pb-4 md:pb-6 sm:pb-12'
          
         >
-          Modern technologies used to build your website
+          Technologies used to design and build websites
         </h1>
         <div className='grid grid-cols-3 md:grid-cols-6 lg:grid-cols-6 pt-10 md:pt-16'>
           <a
