@@ -6,7 +6,7 @@ const Data = [
     src: ClientProcess,
     title: 'Client Process',
     description:
-      "Understanding the client's needs and requirements is of the utmost priority. The client will receive all the documentation necessary to understand each step of the process. Furthermore, the project information will be organised into a project hand-off PDF.",
+      "I take the time to understand my client's needs and requirements. In additon, the client will receive all the documentation necessary to understand each step of the process. Furthermore, the project information will be organised into a project hand-off PDF",
   },
   {
     src: Design,
@@ -18,7 +18,7 @@ const Data = [
     src: Devleopment,
     title: 'Development',
     description:
-      'Building the website according to the confirmed design template, adding animation and functionality.',
+      'Developing the website according to the confirmed design template, adding animation and functionality.',
   },
 ];
 
