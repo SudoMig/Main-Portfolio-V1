@@ -29,12 +29,12 @@ function AboutsUs() {
               </div>
               <div className='text-center sm:text-justify'>
                 <p className='py-8 sm:py-4 text-blue-100 font-semibold'>
-                  I&apos;m Miguel Louis, an autodicated website developer with an avid
-                  passion for ReactJS and CSS frameworks. The outset of my
-                  coding journey began with wanting a career that I enjoyed and
-                  that brought challenges. I loved the idea of having my own
-                  coding environment and the freedom to express creativity. Now, I'm
-                  continuously seeking new ways to broaden my experience and
+                  I&apos;m Miguel Louis, an autodicated website developer with
+                  an avid passion for ReactJS and CSS frameworks. The outset of
+                  my coding journey began with wanting a career that I enjoyed
+                  and brought challenges. I loved the idea of having my own
+                  coding environment and the freedom to express creativity. Now,
+                  I'm continuously seeking new ways to broaden my experience and
                   improve my skill set.
                 </p>
                 <div className='text-blue-500 font-semibold text-center sm:text-left text-xl mb-2'>
@@ -42,12 +42,13 @@ function AboutsUs() {
                 </div>
                 <p className='text-blue-100 font-semibold'>
                   Good question! I'm glad you asked. While school is an
-                  excellent tool, I wanted to challenge and prove to myself that
-                  I could learn and accomplish my goals on my own. I deeply
-                  value growth, and I knew there would be considerable
-                  opportunity for self-improvement through the various
-                  challenges ahead. But if you'd asked me to do it again, I most
-                  certainly would not.
+                  excellent tool, I wanted to challenge and prove myself that I
+                  could learn and accomplish my goals on my own. This path gave
+                  me the flexibility to focus on the material of interest at my
+                  own pace. Having a deep value for growth, I knew there would
+                  be considerable opportunity for self-improvement through the
+                  various challenges ahead. But if you'd asked me to do it
+                  again, I most certainly would not.
                 </p>
               </div>
               <div className='flex justify-evenly mt-10 text-white text-lg text-white font-base font-semibold'>

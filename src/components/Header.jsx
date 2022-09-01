@@ -41,23 +41,3 @@ function Header() {
 }
 
 export default Header;
-
-// BackGround Image code
-
-{
-  /* <div className="hidden sm:flex items-center justify-center h-backgroundImage w-full bg-no-repeat bg-cover bg-bannerImage bg-top">
-      <Container>
-        <div className="">
-          <p className="font-semibold text-5xl sm:text-7xl text-white tracking-superWide">
-            Welcome
-          </p>
-        </div>
-        <div className="absolute left-0 bottom-10 sm:left-10 text-white">
-          <p className="sm:text-lg">Web Designer & Developer</p>
-          <p className="box-content h-12 w-64 font-semibold sm:text-3xl sm:pt-2 sm:pb-14">
-            I Build And Bring Websites To Life.
-          </p>
-        </div>
-        </Container>
-      </div> */
-}
