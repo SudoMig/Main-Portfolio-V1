@@ -29,7 +29,7 @@ function AboutsUs() {
               </div>
               <div className='text-center sm:text-justify'>
                 <p className='py-8 sm:py-4 text-blue-100 font-semibold'>
-                  I&apos;m Miguel Louis, a website developer with an avid
+                  I&apos;m Miguel Louis, an autodicated website developer with an avid
                   passion for ReactJS and CSS frameworks. The outset of my
                   coding journey began with wanting a career that I enjoyed and
                   that brought challenges. I loved the idea of having my own
