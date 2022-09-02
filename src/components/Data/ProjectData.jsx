@@ -5,23 +5,23 @@ import ClientProcess from "../../Images/CoffeeShopp.png";
 const ProjectData = [
   {
     src: Design,
-    title: 'Website Design',
+    title: 'Naure Olavina - Beauty & Cosemtic',
     content:
-      'Makropura doplara. Pode dedade homonas, huruvida trev. Retresamma kosona i fin nuligt. Prende pyse suling föledes.',
+      'Simple Template designed for an e-commerce beauty and cosmetic product website.',
     
   },
   {
     src: Devleopment,
-    title: 'Website Development',
+    title: 'RoyalDripCheck -  StreetWear Reseller',
     content:
-      'Makropura doplara. Pode dedade homonas, huruvida trev. Retresamma kosona i fin nuligt. Prende pyse suling föledes. ',
+      'E-commerce StreetWear Reseller website build in Tailwind and Liquid. The project was completed but the clients never went live. Feel free to contact me for a video tour! ',
     
   },
   {
     src: ClientProcess,
-    title: 'Special Request',
+    title: 'Keeper App - Organizational App',
     content:
-      'Makropura doplara. Pode dedade homonas, huruvida trev. Retresamma kosona i fin nuligt. Prende pyse suling föledes. ',
+      'Currently working on a personalised version of the Keeper App. The project will include authentication, backend data, and added functionality. ',
     
   },
   
