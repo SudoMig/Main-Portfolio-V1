@@ -45,7 +45,7 @@ const ServiceItems = (props) => {
                 complications. Animations are growing in popularity. This may
                 come at the cost of the website's speed. In this instance,
                 it&apos;s vital to undertake the respective approach, including
-                unidirectional and functional component approach to ensure speed
+                unidirectional and functional components to ensure speed
                 optimization in ReactJS.
               </div>
               <div>

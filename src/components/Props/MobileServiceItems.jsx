@@ -68,10 +68,10 @@ const MobileServiceItems = (props) => {
           </div>
         </div>
         <div
-          className={`w-full px-2  h-0 text-justify text-opacity-0 transform duration-700 ease-out overflow-hidden whitespace-normal	
+          className={`w-full flex items-center px-2 h-0 text-justify text-sm text-opacity-0 transition-all duration-700 ease-out overflow-hidden whitespace-normal	
             ${
               props.active === props.index && isOpen
-                ? 'bg-blue-900 bg-opacity-30 pt-2 h-40 text-opacity-100 text-white'
+                ? 'bg-blue-900 bg-opacity-30 pt-2 h-48 text-opacity-100 text-white  '
                 : 'pointer-events-none'
             }
           `}
