@@ -8,9 +8,9 @@ const WorkflowData = [
     id: 0,
     num: '01',
     icon: <RiOpenArmLine className='w-10 h-10' />,
-    title: 'Client Approach',
+    title: 'Inital Client',
     description:
-      ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
+      ' The terms and assignment of the project will be agreed upon. Subsequently, the contract and invoice will be sent. A workflow overview and questionaires will be sent to collect the information necessary and brief the client on upcoming steps.',
   },
   {
     id: 1,
@@ -18,7 +18,7 @@ const WorkflowData = [
     icon: <BsArrowsFullscreen className='w-10 h-10' />,
     title: 'WireFrame',
     description:
-      ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
+      ' A wire-frame design will be drafted to give the client an idea of the website layout.',
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const WorkflowData = [
     icon: <RiPenNibLine className='w-10 h-10' />,
     title: 'Design',
     description:
-      ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
+      ' Following the wireframe layout, the website content and colours will be added to the design. Thereafter, the animations and website functionality will be noted or prototyped .',
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const WorkflowData = [
     icon: <BsCodeSlash className='w-10 h-10' />,
     title: 'Developemnt',
     description:
-      ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
+      ' The design will be converted to clean and organised code. Website animation and functionality will be added. The client will have a testing phase to ensure the website is behaving according to their satisfaction.',
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const WorkflowData = [
     icon: <SiFiles className='w-10 h-10' />,
     title: 'Project HandOff',
     description:
-      ' Pren kalilig inte os bitest. Dåteras pongen mit, bol. Hang kisk antekinat. Antesk infraplan sasamma dipinar. Biodårar besöse.Astronera vavöheten dun.',
+      ' A project handoff will be provided with all corresponding documentation and any additional requests made by the client.',
   },
 ];
 

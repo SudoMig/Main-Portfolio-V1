@@ -53,8 +53,7 @@ const WorkFlowItems = (props) => {
                 {props.title}
               </p>
               <p className='box-content w-82 text-sm md:text-base text-white'>
-                Hello This is some random dummny text. Why don't you go to
-                Africa for lunch and paris for dinner? Strange huh. Add some more dummby text for testing... haha
+                {props.description}
               </p>
             </div>
           </div>
