@@ -15,7 +15,7 @@ const Services = () => {
             My Services
           </div>
           <div className='flex justify-center text-center'>
-            <div className='font-semibold box-content w-[30rem]'>
+            <div className='box-content w-[30rem] font-semibold md:text-lg'>
               Set of services offered to build and implement the quality website you deserve.
             </div>
           </div>

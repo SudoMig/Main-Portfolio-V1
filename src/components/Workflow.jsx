@@ -38,7 +38,7 @@ const Workflow = () => {
                   <div className='box-content w-80 text-left font-semibold text-2xl sm:text-3xl pl-10 sm:pl-12'>
                     Overview
                   </div>
-                  <div className='bg-PrimaryBlue h-1 w-48 ml-10 ml-12'></div>
+                  <div className='bg-blue-700 h-1 w-48 ml-10 ml-12'></div>
                 </div>
               </div>
             </div>
