@@ -1,6 +1,7 @@
 import Design from "../../Images/NaureOlavina.png";
-import Devleopment from "../../Images/DevelopmentProcess.png";
+import DripCheckImg from "../../Images/DevelopmentProcess.png";
 import ClientProcess from "../../Images/TempMyKepperApp.png";
+import DripCheck from '../../Videos/DripCheckVideo.mp4' 
 
 const ProjectData = [
   {
@@ -11,7 +12,7 @@ const ProjectData = [
     
   },
   {
-    src: Devleopment,
+    src: DripCheck,
     title: 'RoyalDripCheck -  StreetWear Reseller',
     content:
       'E-commerce StreetWear Reseller website build in Tailwind and Liquid. The project was completed but the clients never went live. Feel free to contact me for a video tour! ',

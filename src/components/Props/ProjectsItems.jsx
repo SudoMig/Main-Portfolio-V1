@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ProjectsItems = (props) => {
   return (
     <div className='flex h-3/5 px-10 pt-24'>
