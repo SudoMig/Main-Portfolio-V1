@@ -12,18 +12,17 @@ const ServiceItems = (props) => {
             </div>
             <div className='box-content md:w-64 lg:w-[29rem] text-blue-50 ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-200 ease-out '>
               <div className='mb-4'>
-                The website design is the first thing any user sees on your
-                website. It can, unfortunately serve as a deterrent or,
-                fortunately, an incentive to browse your website. It has the
-                possibility of serving several purposes, tailored to the
+                The website design is the first thing any user sees. It can,
+                serve as a deterrent or an incentive to browse your website. It
+                has the possibility of serving several purposes, tailored to the
                 client's needs and requirements. Ultimately, it is meant to
                 improve the user experience and target a particular audience. A
                 quality design goes a long way toward establishing trust and
                 professionalism for your company.
               </div>
               <div>
-                Every respectable website needs a well designed website. Whether
-                you solely need a design template or a website, the option is
+                Every respectable site needs a well designed website. Whether
+                you solely need a design template or a website Development, the option is
                 yours to choose from.
               </div>
             </div>
@@ -40,18 +39,19 @@ const ServiceItems = (props) => {
             </div>
             <div className='box-content md:w-64 lg:w-[29rem] text-blue-50 ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out'>
               <div className='mb-4'>
-                I develop websites utilising the popular JavaScript Framework
-                ReactJS. When developing websites, I ensure to keep clean and
-                organised code to reduce bugs and minimise future complications.
-                Animations are growing in popularity. This may come at the cost
-                of the website's speed. In this instance, it&apos;s vital to
-                undertake the respective approach, including unidirectional
-                components to ensure speed optimization. In ReactJS, a
-                functional component approach is recommended.
+                I generally develop websites utilising the popular JavaScript
+                Framework ReactJS. When developing websites, I ensure to keep
+                clean and organised code to reduce bugs and minimise future
+                complications. Animations are growing in popularity. This may
+                come at the cost of the website's speed. In this instance,
+                it&apos;s vital to undertake the respective approach, including
+                unidirectional and functional component approach to ensure speed
+                optimization in ReactJS.
               </div>
               <div>
                 Whether you already have a design available or need one, I will
-                gladly develop a quality and affordable website.
+                gladly develop a quality and affordable website in the
+                apropriate frameworks and language .
               </div>
             </div>
           </div>
