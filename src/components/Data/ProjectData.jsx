@@ -1,7 +1,6 @@
 import Design from "../../Images/NaureOlavina.png";
-import DripCheckImg from "../../Images/DevelopmentProcess.png";
 import ClientProcess from "../../Images/TempMyKepperApp.png";
-import DripCheck from '../../Videos/DripCheckVideo.mp4' 
+import DripCheck from '../../Videos/DripCheckVideo.gif' 
 
 const ProjectData = [
   {
