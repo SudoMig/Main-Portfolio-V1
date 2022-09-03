@@ -71,7 +71,7 @@ const MobileServiceItems = (props) => {
           className={`w-full flex items-center px-8 text-justify text-base text-opacity-0 transition-all duration-700 ease-out overflow-hidden whitespace-normal	
             ${
               props.active === props.index && isOpen
-                ? 'bg-blue-900 bg-opacity-30 pt-2 text-opacity-100 text-white ' + 'h-' + props.height
+                ? 'bg-blue-900 bg-opacity-30 pt-2 text-opacity-100 text-white ' + props.height
                 : 'pointer-events-none h-0'
             }
           `}
