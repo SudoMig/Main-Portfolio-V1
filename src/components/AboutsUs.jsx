@@ -21,7 +21,7 @@ function AboutsUs() {
       <div className='block md:hidden '>
         <SideNav />
       </div>
-      <div className='bg-black radiantBG pt-40 md:pt-40 w-full bodyContent '>
+      <div className='bg-black radiantBG pt-40 md:pt-40 w-full bodyContent'>
         <Container>
           <div className='flex flex-col md:flex-row md:justify-evenly items-center px-4'>
             <div className='box-content md:w-[40rem]'>
@@ -75,7 +75,7 @@ function AboutsUs() {
                 </button>
               </div>
             </div>
-            <div>
+            <div >
               <img
                 className='mt-8 md:mt-0 object-scale-down w-full w-72 md:w-[26rem]'
                 src={require('../Images/Memoji.png')}

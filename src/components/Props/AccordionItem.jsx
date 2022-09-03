@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
+import { AccordionContext } from '../AccordionWrapper';
 import Container from '../../sections/Container';
 import PropTypes from 'prop-types';
-import { AccordionContext } from '../AccordionWrapper';
 import * as Style from '../Styles/AccordionStyle';
 
 const AccordionItem = (props) => {

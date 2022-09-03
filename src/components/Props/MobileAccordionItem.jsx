@@ -47,7 +47,7 @@ const MobileAccordionItem = (props) => {
                   <span>{props.title}</span>
                 </button>
               </div>
-              <div className='text-white font-medium pt-2'>
+              <div className='text-white text-lg font-medium pt-2'>
                 <div
                   id={'select-' + indexCount(props.index)}
                   className={
