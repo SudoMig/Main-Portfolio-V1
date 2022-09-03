@@ -29,6 +29,7 @@
 
 @keyframes expand-animateThis {
   0% {
+    border: 1px solid #111827;
     width: 0%;
   }
   100% {

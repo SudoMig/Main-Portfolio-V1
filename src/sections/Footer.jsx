@@ -49,7 +49,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className='bg-black footerBG relative border-2 border-gray-900 py-16'>
+    <footer className='bg-black footerBG relative py-16'>
       <Container>
         <nav className='flex justify-center items-center ' aria-label='Footer'>
           {navigation.main.map((item) => (
@@ -58,7 +58,7 @@ export default function Footer() {
                 smooth={true}
                 duration={1000}
                 to={item.to}
-                className='text-base text-blue-50 hover:text-blue-500 font-semibold transition-all duration-300 ease-in-out cursor-pointer'
+                className='text-base text-gray-400 hover:text-blue-500 font-semibold transition-all duration-300 ease-in-out cursor-pointer'
               >
                 {item.name}
               </Link>
@@ -86,15 +86,15 @@ export default function Footer() {
             <img className='object-scale-down w-20' src={require('../Images/HappyMemojiIcon.png')} alt="" />
           </div> */}
           <div>
-            <span className='flex justify-center items-center text-blue-500 font-semibold mt-8 md:mt-6'>
-              Created by Miguel Louis ❤️
+            <span className='flex justify-center items-center text-gray-400 font-semibold mt-8'>
+              Designed & Developed by Miguel Louis
             </span>
           </div>
-          <div>
-            <p className='text-center text-base text-blue-500 mt-2 md:mt-2 '>
-              Copyright &copy; {new Date().getFullYear()}. All rights reserved.
+          {/* <div>
+            <p className='text-center font-semibold text-gray-400 mt-8'>
+              &copy; {new Date().getFullYear()} Miguel Louis. All rights reserved.
             </p>
-          </div>
+          </div> */}
         </div>
       </Container>
     </footer>
