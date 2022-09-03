@@ -24,11 +24,11 @@ const ContactForm = () => {
     <form
       action='https://public.herotofu.com/v1/94655b00-cb2d-11ec-a557-034a17e2da28'
       method='POST'
-      className='grid grid-cols-1 gap-y-2 md:gap-y-6 md:pt-10 md:pb-24 text-sm sm:text-base'
+      className='grid grid-cols-1 gap-y-2 md:gap-y-6 md:pt-10 md:pb-24 text-base sm:text-base'
     >
       <div className='flex space-x-2 py-2 '>
         <div className='py-1 md:py-0'>
-          <label htmlFor='full-name' className='sr-only'>
+          <label htmlFor='full-name' className='sr-only '>
             Name
           </label>
           <input
@@ -62,7 +62,7 @@ const ContactForm = () => {
           id='message'
           name='message'
           rows={1}
-          className='border-b border-gray-800 md:border-b-2 border-white w-full bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-blue-600 transition-all duration-200'
+          className='mt-4 border-b border-gray-800 md:border-b-2 border-white w-full bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-blue-600 transition-all duration-200'
           placeholder='Message'
           defaultValue={''}
         />
@@ -70,7 +70,7 @@ const ContactForm = () => {
       <div>
         <button
           type='submit'
-          className='bg-blue-700 w-full h-10 hover:text-blue-700 text-lg font-semibold bounce-to-right'
+          className='mt-4 bg-blue-700 w-full h-10 hover:text-blue-700 text-lg font-semibold bounce-to-right'
         >
           Submit
         </button>

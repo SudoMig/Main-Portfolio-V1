@@ -44,9 +44,9 @@ const Contact = () => {
                       />
                     </div>
                     <div className='text-white flex-inital'>
-                      <div className='font-semibold text-base sm:text-2xl text-white pt-4 sm:pt-12'>
+                      <div className='font-semibold text-2xl text-white pt-4 sm:pt-12'>
                         <div className='md:mt-4 md:mb-2'>Let's Talk. </div>
-                        <div className='mb-1 md:mb-0'>Enter your project Details.</div>
+                        <div className='mb-8 md:mb-2'>Enter your project Details.</div>
                         <ContactForm />
                       </div>
                     </div>
