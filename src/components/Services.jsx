@@ -33,6 +33,7 @@ const Services = () => {
               paragraph2={item.paragraph2}
               active={active}
               setActive={setActive}
+              height={item.height}
             />
           ))}
           ;
