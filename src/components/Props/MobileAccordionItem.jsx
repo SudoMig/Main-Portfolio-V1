@@ -33,8 +33,8 @@ const MobileAccordionItem = (props) => {
         <div>
           <Container>
             {/*  Process Overview Content  */}
-            <div className='box-content w-full h-full pb-4 '>
-              <div className='font-bold text-xl text-white '>
+            <div className='box-content w-full h-full pb-8 '>
+              <div className='font-bold text-xl text-white'>
                 <button
                   onClick={(e) => eventHandler(e, props.index)}
                   className={
