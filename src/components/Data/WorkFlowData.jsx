@@ -32,7 +32,7 @@ const WorkflowData = [
     id: 3,
     num: '04',
     icon: <BsCodeSlash className='w-10 h-10' />,
-    title: 'Developemnt',
+    title: 'Development',
     description:
       ' The design will be converted to clean and organised code. Website animation and functionality will be added. The client will have a testing phase to ensure the website is behaving according to their satisfaction.',
   },
