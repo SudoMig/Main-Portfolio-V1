@@ -49,7 +49,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className='bg-black footerBG relative py-16'>
+    <footer className='bg-black footerBG relative py-16 border-t border-gray-800 md:border-none'>
       <Container>
         <nav className='flex justify-center items-center ' aria-label='Footer'>
           {navigation.main.map((item) => (

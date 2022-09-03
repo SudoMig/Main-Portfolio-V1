@@ -33,7 +33,7 @@ const WorkFlowItems = (props) => {
   }
 
   return (
-    <div className='flex flex-col md:flex-row md:pb-4'>
+    <div className='flex flex-col md:flex-row pb-8'>
       <p className='pr-4 pb-2 md:pb-0 text-xl text-gray-200 font-bold'>
         {props.num}
       </p>
@@ -47,12 +47,12 @@ const WorkFlowItems = (props) => {
               {props.icon}
             </div>
           </div>
-          <div className='flex items-center w-80 md:w-[39rem] pl-4 '>
+          <div className='flex items-center w-80 md:w-[35rem] pl-4 '>
             <div className='flex flex-col'>
               <p className='text-blue-600 text-xl font-semibold pb-2'>
                 {props.title}
               </p>
-              <p className='box-content w-82 text-sm md:text-base text-white'>
+              <p className='box-content w-82 text-base text-white'>
                 {props.description}
               </p>
             </div>
