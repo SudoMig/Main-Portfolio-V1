@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import { Link } from 'react-scroll';
 import Data from './Data/ProcessData';
 import ProcessImages from './Props/ProcessImages';
 import AccordionWrapper from './AccordionWrapper';
@@ -6,7 +7,7 @@ import AccordionItem from './Props/AccordionItem';
 import MobileAccordionItem from './Props/MobileAccordionItem';
 import Container from '../sections/Container';
 import SideNav from '../sections/SideNav';
-import { Link } from 'react-scroll';
+
 
 function AboutsUs() {
   const [image, setImage] = useState(0);
@@ -22,12 +23,12 @@ function AboutsUs() {
       </div>
       <div className='bg-black radiantBG pt-40 md:pt-40 w-full bodyContent '>
         <Container>
-          <div className='sm:flex sm:justify-evenly items-center px-4'>
-            <div className='box-content sm:w-[40rem]'>
+          <div className='md:flex md:justify-evenly items-center px-4'>
+            <div className='box-content sm:w-[35rem] md:w-[40rem]'>
               <div className='font-semibold text-blue-500 text-center sm:text-left text-3xl'>
                 Who am I ?
               </div>
-              <div className='text-center sm:text-justify'>
+              <div className='text-left '>
                 <p className='py-8 sm:py-4 text-blue-100 font-semibold'>
                   I&apos;m Miguel Louis, an autodicated website developer with
                   an avid passion for ReactJS and CSS frameworks. The outset of
@@ -76,7 +77,7 @@ function AboutsUs() {
             </div>
             <div>
               <img
-                className='mt-20 object-scale-down w-full sm:w-[26rem] '
+                className='mt-20 object-scale-down w-full sm:w-[26rem]'
                 src={require('../Images/Memoji.png')}
               />
             </div>

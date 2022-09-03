@@ -66,14 +66,14 @@ export default function Footer() {
           ))}
         </nav>
         <div>
-          <div className='flex justify-center items-center mt-6'>
+          <div className='flex justify-center items-center mt-6 gap-x-8'>
             {navigation.social.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
                 target='_blank'
                 rel='noreferrer'
-                className='text-gray-400 px-2'
+                className='text-gray-400'
               >
                 <span className='sr-only'>{item.name}</span>
                 <item.icon className='h-6 w-6' aria-hidden='true' />
