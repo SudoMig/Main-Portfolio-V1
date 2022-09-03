@@ -23,13 +23,13 @@ function AboutsUs() {
       </div>
       <div className='bg-black radiantBG pt-40 md:pt-40 w-full bodyContent '>
         <Container>
-          <div className='md:flex md:justify-evenly items-center px-4'>
-            <div className='box-content sm:w-[35rem] md:w-[40rem]'>
-              <div className='font-semibold text-blue-500 text-center sm:text-left text-3xl'>
+          <div className='flex flex-col md:flex-row md:justify-evenly items-center px-4'>
+            <div className='box-content md:w-[40rem]'>
+              <div className='font-semibold text-blue-500 text-center md:text-left text-3xl'>
                 Who am I ?
               </div>
-              <div className='text-left '>
-                <p className='py-8 sm:py-4 text-blue-100 font-semibold'>
+              <div className='text-center md:text-left'>
+                <p className='py-8 sm:py-4 text-blue-100 text-lg font-semibold'>
                   I&apos;m Miguel Louis, an autodicated website developer with
                   an avid passion for ReactJS and CSS frameworks. The outset of
                   my coding journey began with wanting a career that I enjoyed
@@ -38,10 +38,10 @@ function AboutsUs() {
                   I'm continuously seeking new ways to broaden my experience and
                   improve my skill set.
                 </p>
-                <div className='text-blue-500 font-semibold text-center sm:text-left text-xl mb-2'>
+                <div className='text-blue-500 font-semibold text-center md:text-left text-xl mb-2'>
                   Why did I choose the self-taught path?
                 </div>
-                <p className='text-blue-100 font-semibold'>
+                <p className='text-blue-100 text-lg font-semibold'>
                   Good question! I'm glad you asked. While school is an
                   excellent tool, I wanted to challenge and prove myself that I
                   could learn and accomplish my goals on my own. This path gave
@@ -77,7 +77,7 @@ function AboutsUs() {
             </div>
             <div>
               <img
-                className='mt-20 object-scale-down w-full sm:w-[26rem]'
+                className='mt-8 md:mt-0 object-scale-down w-full w-72 md:w-[26rem]'
                 src={require('../Images/Memoji.png')}
               />
             </div>
