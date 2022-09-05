@@ -10,7 +10,7 @@ const WorkflowData = [
     icon: <RiOpenArmLine className='w-10 h-10' />,
     title: 'Inital Client',
     description:
-      ' The terms and assignment of the project will be agreed upon. Subsequently, the contract and invoice will be sent. A workflow overview and questionaires will be sent to collect the information necessary and brief the client on upcoming steps.',
+      ' The project is discussed and assigned. A workflow overview and questionnaire are sent to collect the data necessary and brief the client.',
   },
   {
     id: 1,
@@ -26,7 +26,7 @@ const WorkflowData = [
     icon: <RiPenNibLine className='w-10 h-10' />,
     title: 'Design',
     description:
-      ' Following the wireframe layout, the website content and colours will be added to the design. Thereafter, the animations and website functionality will be noted or prototyped .',
+      'The website content and colours are added to the design. Thereafter, the animations and website functionality will be noted or prototyped . ',
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const WorkflowData = [
     icon: <BsCodeSlash className='w-10 h-10' />,
     title: 'Development',
     description:
-      ' The design will be converted to clean and organised code. Website animation and functionality will be added. The client will have a testing phase to ensure the website is behaving according to their satisfaction.',
+      ' The design is converted to organised code. The client has a testing phase to ensure the website is to their satisfaction.      ',
   },
   {
     id: 4,
