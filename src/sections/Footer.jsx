@@ -90,11 +90,11 @@ export default function Footer() {
               Designed & Developed by Miguel Louis
             </span>
           </div>
-          {/* <div>
-            <p className='text-center font-semibold text-gray-400 mt-8'>
-              &copy; {new Date().getFullYear()} Miguel Louis. All rights reserved.
+          <div>
+            <p className='text-center text-sm text-gray-400 mt-2'>
+              &copy; {new Date().getFullYear()} Miguel Louis.
             </p>
-          </div> */}
+          </div>
         </div>
       </Container>
     </footer>
