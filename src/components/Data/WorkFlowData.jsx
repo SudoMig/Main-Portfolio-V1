@@ -18,7 +18,7 @@ const WorkflowData = [
     icon: <BsArrowsFullscreen className='w-10 h-10' />,
     title: 'WireFrame',
     description:
-      ' A wire-frame design will be drafted to give the client an idea of the website layout.',
+      ' A wire-frame design is drafted to give the client an idea of the website layout.',
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const WorkflowData = [
     icon: <BsCodeSlash className='w-10 h-10' />,
     title: 'Development',
     description:
-      ' The design is converted to organised code. The client has a testing phase to ensure the website is to their satisfaction.      ',
+      ' The design is converted to clean and organised code. The client has a testing phase to ensure the website is to their satisfaction.      ',
   },
   {
     id: 4,
