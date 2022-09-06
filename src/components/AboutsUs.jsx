@@ -7,7 +7,7 @@ import AccordionItem from './Props/AccordionItem';
 import MobileAccordionItem from './Props/MobileAccordionItem';
 import Container from '../sections/Container';
 import SideNav from '../sections/SideNav';
-
+import Resume from '../Files/MiguelLouisResume.pdf';
 
 function AboutsUs() {
   const [image, setImage] = useState(0);
@@ -35,8 +35,8 @@ function AboutsUs() {
                   my coding journey began with wanting a career that I enjoyed
                   and that brought challenges. I loved the idea of having my own
                   coding environment and the freedom to express creativity. Now,
-                  I'm continuously seeking opportunities to broaden my experience and
-                  improve my skill set.
+                  I'm continuously seeking opportunities to broaden my
+                  experience and improve my skill set.
                 </p>
                 <div className='text-blue-500 font-semibold text-center md:text-left text-xl mb-2'>
                   Why did I choose the self-taught path?
@@ -46,10 +46,10 @@ function AboutsUs() {
                   excellent tool, I wanted to challenge and prove myself that I
                   could learn and accomplish my goals on my own. This path gave
                   me the flexibility to focus on the material of interest at my
-                  own pace. Having a deep value for interpersonal growth, I knew there would
-                  be considerable opportunity for self-improvement through the
-                  various challenges ahead. But if you'd asked me to do it
-                  again, I most certainly would not.
+                  own pace. Having a deep value for interpersonal growth, I knew
+                  there would be considerable opportunity for self-improvement
+                  through the various challenges ahead. But if you'd asked me to
+                  do it again, I most certainly would not.
                 </p>
               </div>
               <div className='flex justify-evenly mt-10 text-white text-lg text-white font-base font-semibold'>
@@ -64,18 +64,18 @@ function AboutsUs() {
                   </Link>
                 </button>
                 <button className=' hvr-rectangle-in h-11 w-28 '>
-                  <Link
-                    to=''
-                    smooth={true}
-                    duration={1000}
+                  <a
+                    href={Resume}
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className='whitespace-nowrap '
                   >
                     Resume
-                  </Link>
+                  </a>
                 </button>
               </div>
             </div>
-            <div >
+            <div>
               <img
                 className='mt-8 md:mt-0 object-scale-down w-full w-72 md:w-[26rem]'
                 src={require('../Images/Memoji.png')}
