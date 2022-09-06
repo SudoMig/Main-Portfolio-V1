@@ -7,7 +7,7 @@ const ProjectData = [
     src: Design,
     title: 'Naure Olavina - Beauty & Cosemtic',
     content:
-      'Simple Template designed in Figma. for an e-commerce beauty and cosmetic product website.',
+      'Simple Template designed for an e-commerce beauty and cosmetic product website.',
     
   },
   {
