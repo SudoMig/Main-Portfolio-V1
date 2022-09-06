@@ -22,8 +22,8 @@ const ServiceItems = (props) => {
               </div>
               <div>
                 Every respectable site needs a well designed website. Whether
-                you solely need a design template or a website Development, the option is
-                yours to choose from.
+                you solely need a design template or a website Development, the
+                option is yours to choose from.
               </div>
             </div>
           </div>
@@ -39,19 +39,17 @@ const ServiceItems = (props) => {
             </div>
             <div className='box-content md:w-64 lg:w-[24rem] text-justify text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out'>
               <div className='mb-4'>
-                I generally develop websites utilising the popular JavaScript
-                Framework ReactJS. When developing websites, I ensure to keep
-                clean and organised code to reduce bugs and minimise future
-                complications. Animations are growing in popularity. This may
-                come at the cost of the website's speed. In this instance,
-                it&apos;s vital to undertake the respective approach, including
-                unidirectional and functional components to ensure speed
-                optimization in ReactJS.
+                I develop websites utilising the popular JavaScript Framework
+                ReactJS. When developing websites, I ensure to keep clean and
+                organised code to reduce bugs and minimise future complications.
+                Animations are growing in popularity. This may come at the cost
+                of the website's speed. In this instance, undertaking the
+                respective approach is salient to ensure webites speed optimization.
               </div>
               <div>
                 Whether you already have a design available or need one, I will
-                gladly develop a quality and affordable website in the
-                apropriate frameworks and language .
+                gladly develop a quality and cost-effective website in the
+                suitable frameworks and language .
               </div>
             </div>
           </div>

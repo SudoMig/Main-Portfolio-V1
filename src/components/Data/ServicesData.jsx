@@ -2,7 +2,7 @@ const ServicesData = [
   {
     title: 'Website Design',
     paragraph:
-      "A website's design plays a significant role in defining a company on the internet. It shows the user what a company stands for and what it offers. Ultimately, it is meant to improve the user experience and target a particular audience. A quality design goes a long way toward establishing trust and professionalism for your company.",
+      "A website's design plays a significant role in defining companies on the internet. Showing the user what a company stands for and what it offers. Ultimately, the deisgn is meant to improve the user experience and target a particular audience. A quality design goes a long way toward establishing trust and professionalism for your company.",
     paragraph2:
       "Every respectable company needs a well designed website. Whether you solely need a design template or a website, the option is yours to choose from.",
     height: 'h-72'
