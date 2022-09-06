@@ -7,7 +7,7 @@ const ProjectData = [
     src: Design,
     title: 'Naure Olavina - Beauty & Cosemtic',
     content:
-      'Simple Template designed for an e-commerce beauty and cosmetic product website.',
+      'Simple beauty and cosmetic product design concept. Designed in Figma with a shopify e-commerce website as inspiration. More design templates coming soon',
     
   },
   {
