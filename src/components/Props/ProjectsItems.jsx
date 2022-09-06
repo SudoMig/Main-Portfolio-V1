@@ -17,7 +17,7 @@ const ProjectsItems = (props) => {
             data-aos-delay='350'
             className='py-14 px-4'
           >
-            <div className='text-white text-xl font-semibold mb-2'>
+            <div className='text-white text-xl font-semibold mb-2 '>
               {props.title}
             </div>
             <div className=' text-white '>{props.content}</div>

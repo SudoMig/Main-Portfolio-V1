@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <div className='hidden md:block'>
-        <div className='relative flex items-center justify-center h-screen overflow-hidden'>
+        <div className='relative flex items-center justify-center h-screen overflow-hidden '>
           <h1 className='relative z-30 font-semibold text-5xl sm:text-7xl text-white tracking-superWide'>
             Welcome
           </h1>

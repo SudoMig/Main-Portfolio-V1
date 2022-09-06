@@ -10,7 +10,7 @@ const ServiceItems = (props) => {
                 Website Design
               </div>
             </div>
-            <div className='box-content md:w-64 lg:w-[29rem] text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-200 ease-out '>
+            <div className='box-content md:w-64 lg:w-[24rem] text-justify text-justify text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-200 ease-out'>
               <div className='mb-4'>
                 The website design is the first thing any user sees. It can,
                 serve as a deterrent or an incentive to browse your website. It
@@ -37,7 +37,7 @@ const ServiceItems = (props) => {
                 Website Development
               </div>
             </div>
-            <div className='box-content md:w-64 lg:w-[29rem] text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out'>
+            <div className='box-content md:w-64 lg:w-[24rem] text-justify text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out'>
               <div className='mb-4'>
                 I generally develop websites utilising the popular JavaScript
                 Framework ReactJS. When developing websites, I ensure to keep
@@ -65,7 +65,7 @@ const ServiceItems = (props) => {
                 Personal Request
               </div>
             </div>
-            <div className='box-content md:w-64 lg:w-[29rem] text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out '>
+            <div className='box-content md:w-64 lg:w-[24rem] text-justify text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out '>
               <div className='mb-4'>
                 I understand that clients may have unique needs and requirements
                 that aren&apos;t generally offered. I am happy to accept unique
@@ -88,7 +88,7 @@ const ServiceItems = (props) => {
                 Bugs & Fixes
               </div>
             </div>
-            <div className='box-content md:w-64 lg:w-[29rem] text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out '>
+            <div className='box-content md:w-64 lg:w-[24rem] text-justify text-blue-50 text-lg ml-10 opacity-0 group-hover:opacity-100 transition-opacity-100 duration-300 ease-out '>
               <div className='mb-4'>
                 Have bugs been bugging your website for a while? Let me know via
                 the contact section below with a brief and detailed description.
