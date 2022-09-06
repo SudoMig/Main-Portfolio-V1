@@ -12,7 +12,7 @@ const Data = [
     src: Design,
     title: 'Design',
     description:
-      'The design process takes a 3-step approach, building the design incrementally. Starting with the wire-frame body. Secondly, implementing the design content and colours. Lastly the animations and functionality. ',
+      'The design process takes a 3-step approach, building the design incrementally. Starting with the wire-frame layout. Secondly, implementing the design content and colours. Lastly the animations and functionality. ',
   },
   {
     src: Devleopment,
