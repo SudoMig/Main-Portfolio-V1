@@ -29,7 +29,7 @@ const Contact = () => {
 
         <Container resolution>
           <div className='flex flex-col justify-center h-full lg:h-screen'>
-            <h1 className='hidden md:block z-40 text-blue-600 font-semibold text-4xl md:text-5xl pl-6 md:pl-24'>
+            <h1 className='hidden md:block z-40 text-blue-600 font-semibold text-4xl md:text-5xl md:pl-[10%]'>
               Contact Me.
             </h1>
             <div className=''>
