@@ -7,7 +7,7 @@ const ProjectData = [
     src: Design,
     title: 'Naure Olavina - Beauty & Cosemtic',
     content:
-      'Simple beauty and cosmetic product design concept. Designed in Figma with a shopify e-commerce website as inspiration. More design templates coming soon',
+      'Simple beauty and cosmetic product design concept. Designed in Figma with shopify e-commerce websites in mind. Additional design templates coming soon',
     
   },
   {
@@ -21,7 +21,7 @@ const ProjectData = [
     src: ClientProcess,
     title: 'Keeper App - Organizational App',
     content:
-      'Currently working on a personalised version of the Keeper App. The project will include authentication, security features, backend data, and additonal functionality. ',
+      'Currently working on a personalised version of the Keeper App. The project will include authentication, security features, backend data and additonal functionality. ',
     
   },
   
