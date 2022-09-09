@@ -6,7 +6,7 @@ import '../index.css';
 const SideNav = () => {
   const bodyContent = document.getElementsByClassName('bodyContent');
   const NavBarOpen = 'z-10 absolute right-0 bg-black w-1/2 h-full transition-all translate-x-0 duration-700 ease-in-out '
-  const NavBarClose = 'z-10 absolute right-[-12rem] w-1/2 h-full translate-x-20 transition-all duration-700 ease-in-out'
+  const NavBarClose = 'z-10 fixed right-[-12rem] w-1/2 h-full translate-x-20 transition-all duration-700 ease-in-out'
   const NavItems = [
     { name: 'About', to: 'AboutUs' },
     { name: 'Services', to: 'ProcessOverview' },
