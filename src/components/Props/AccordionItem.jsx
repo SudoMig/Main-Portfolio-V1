@@ -5,14 +5,13 @@ import PropTypes from 'prop-types';
 import * as Style from '../Styles/AccordionStyle';
 
 const AccordionItem = (props) => {
+  const { active, setActive } = useContext(AccordionContext);
   let indexPlus;
 
   const indexCount = (index) => {
     indexPlus = index + 1;
     return indexPlus;
   };
-
-  const { active, setActive } = useContext(AccordionContext);
 
   const eventHandler = (e, index) => {
     e.preventDefault();
