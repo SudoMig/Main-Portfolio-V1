@@ -17,16 +17,16 @@ AOS.init()
 function App() {
   return (
     <div className="Montserrat">
-      {/* <NavBar />
+      <NavBar />
       <BackToTop />
-      <Header /> */}
+      <Header />
       <AboutsUs />
-      {/* <CloudLogos />
+      <CloudLogos />
       <Services />
       <Workflow />
       <Projects />
       <Contact />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
