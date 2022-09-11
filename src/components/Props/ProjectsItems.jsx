@@ -7,7 +7,6 @@ const ProjectsItems = (props) => {
         <div className='w-full transition-all duration-700 ease-in-out'>
           <div data-aos='fade-right' data-aos-duration='700'>
             <img
-              // brightness-75 hover:grayscale-0 hover:brightness-100
               className='hover:shadow-lg hover:shadow-blue-500/30 hover:scale-125 rounded-lg border-t border-gray-800 transition-all duration-500 ease-in-out '
               src={props.src}
               alt=''
@@ -25,7 +24,7 @@ const ProjectsItems = (props) => {
             <div className='text-white '>{props.content}</div>
             <button className='bg-slate-100 text-black h-10 w-28 mt-4 font-semibold cursor-default hvr-bounce-to-right !cursor-pointer'>
               <Link to='Contact' smooth={true} duration={1000}>
-                View More
+                View More 
               </Link>
             </button>
           </div>
