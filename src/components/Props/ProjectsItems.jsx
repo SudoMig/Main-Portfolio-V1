@@ -25,7 +25,7 @@ const ProjectsItems = (props) => {
             <div className='text-white '>{props.content}</div>
             <button className='bg-slate-100 text-black h-10 w-28 mt-4 font-semibold cursor-default hvr-bounce-to-right !cursor-pointer'>
               <Link to='Contact' smooth={true} duration={1000}>
-                More
+                View More
               </Link>
             </button>
           </div>
