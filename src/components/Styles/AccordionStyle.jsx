@@ -17,7 +17,7 @@ export const InactiveImg = 'hidden'
 export const activate = 'text-left';
 export const inactive = 'text-left';
 export const panelOpen = 'box-content w-full mb-2';
-export const panelClose = 'opacity-0 box-content w-0 h-4';
+export const panelClose = 'opacity-0 box-content w-0 h-4 hidden';
 export const activeImg = 'w-full transition-all duration-700 ease-in-out'
 export const inactiveImg = 'opacity-0 h-0 transition-all duration-700 ease-out pointer-events-none'
 

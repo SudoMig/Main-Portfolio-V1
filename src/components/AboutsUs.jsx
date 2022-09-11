@@ -17,7 +17,7 @@ function AboutsUs() {
   };
 
   return (
-    <div id='AboutUs' className=''>
+    <div id='AboutUs'>
       <div className='block lg:hidden '>
         <SideNav />
       </div>

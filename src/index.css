@@ -31,6 +31,11 @@ code {
     #060606;
 }
 
+@media only screen and (max-width: 1024px) {
+  .radiantBG {
+    height: 2290px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .radiantBG {
@@ -44,9 +49,9 @@ code {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 390px) {
   .radiantBG {
-    height: 2490px;
+    height: 2390px;
   }
 }
 
