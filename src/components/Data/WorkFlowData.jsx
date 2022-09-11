@@ -10,7 +10,7 @@ const WorkflowData = [
     icon: <RiOpenArmLine className='w-10 h-10' />,
     title: 'Inital Client',
     description:
-      ' The project is discussed and assigned. A workflow overview and questionnaire are sent to collect the data necessary and brief the client.',
+      ' The project is assigned. A process overview and forms are sent to collect data and brief the client.',
   },
   {
     id: 1,
@@ -26,7 +26,7 @@ const WorkflowData = [
     icon: <RiPenNibLine className='w-10 h-10' />,
     title: 'Design',
     description:
-      'The website content and colours are added to the design. Thereafter, the animations and website functionality will be noted or prototyped . ',
+      'Website design is created. The animations and functionality are noted or prototyped.',
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const WorkflowData = [
     icon: <BsCodeSlash className='w-10 h-10' />,
     title: 'Development',
     description:
-      ' The design is converted to clean and organised code. The client has a testing phase to ensure the website is to their satisfaction.      ',
+      'Design is converted to clean and organised code. Clients have a testing phase to ensure website satisfaction.',
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const WorkflowData = [
     icon: <SiFiles className='w-10 h-10' />,
     title: 'Project HandOff',
     description:
-      ' A project handoff will be provided with all corresponding documentation and any additional requests made by the client.',
+      'All corresponding documentation are included in the Project handoff.',
   },
 ];
 
