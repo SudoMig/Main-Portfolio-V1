@@ -8,7 +8,7 @@ import Container from '../sections/Container';
 
 const CloudLogos = () => {
   return (
-    <div className='bg-black pt-12 pb-36 md:pt-28 md:pb-36 lg:pt-4   '>
+    <div className='bg-black pt-16 pb-36 md:pt-28 md:pb-36 lg:pt-4   '>
       <Container>
         <h1
           className='text-xl text-center text-white font-semibold capitalize pb-4 md:pb-6 sm:pb-12'
