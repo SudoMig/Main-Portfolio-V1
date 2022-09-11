@@ -8,7 +8,7 @@ function navBar(props) {
   return (
     <>
       <div>
-        <div className='hidden md:block'>
+        <div className='hidden lg:block'>
           <nav className='z-50 absolute w-full border-b border-white '>
             <div className='container flex flex-wrap justify-between items-center mx-auto p-10 font-semibold md:text-base text-sm text-white'>
               {/* Logo */}

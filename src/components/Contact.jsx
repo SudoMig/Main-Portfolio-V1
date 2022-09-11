@@ -1,10 +1,8 @@
 import Container from '../sections/Container';
-import LightSphere from '../Images/LightSphere.png';
 import FullLightSphere from '../Images/FullLightSphere.png';
 import SolidSphere from '../Images/FullSolidSphere.png';
-import HalfSolidSphere from '../Images/HalfSolidSphere.png';
 import Mailbox from '../Images/Mailbox.png';
-import ContactForm from '../ContactForm';
+import ContactForm from './ContactForm';
 
 const Contact = () => {
   return (
