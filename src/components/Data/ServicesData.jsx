@@ -2,7 +2,7 @@ const ServicesData = [
   {
     title: 'Website Design',
     paragraph:
-      "A website's design plays a significant role in defining companies on the internet. Showing the user what a company stands for and what it offers. Ultimately, the deisgn is meant to improve the user experience and target a particular audience. A quality design goes a long way toward establishing trust and professionalism for your company.",
+      "A website's design plays a significant role in defining companies. Showing the what the business stands for and offers. Ultimately, the deisgn is meant to improve the user experience and target a particular audience. A quality design goes a long way toward establishing trust and professionalism for your company.",
     paragraph2:
       "Every respectable company needs a well designed website. Whether you solely need a design template or a website, the option is yours to choose from.",
     height: 'h-96'
@@ -10,7 +10,7 @@ const ServicesData = [
   {
     title: 'Website Development',
     paragraph:
-      "When developing websites, I ensure to keep clean and organised code to reduce bugs and minimise future complications. Animations are growing in popularity. This may come at the cost of the website's speed. In this instance, it's vital to undertake the respective approaches, including unidirectional and functional component , to ensure speed optimization in ReactJS.",
+      "When developing websites, I ensure to keep clean and organised code to reduce bugs and minimise future complications. Animations are growing in popularity. This may come at the cost of the website's speed. In this instance, it's vital to undertake the respective approaches, including unidirectional and functional component, to ensure speed optimization in ReactJS.",
     paragraph2:
       'Whether you already have a design available or need one, I will gladly develop a quality and affordable website.',
     height: 'h-96'  
