@@ -47,7 +47,7 @@ const WorkFlowItems = (props) => {
               {props.icon}
             </div>
           </div>
-          <div className='flex items-center w-80 md:w-[35rem] pl-4 '>
+          <div className='flex items-center w-64 md:w-[35rem] pl-4 '>
             <div className='flex flex-col'>
               <p className='text-blue-600 text-xl font-semibold pb-2'>
                 {props.title}

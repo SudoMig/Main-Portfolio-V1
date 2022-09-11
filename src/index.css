@@ -31,6 +31,30 @@ code {
     #060606;
 }
 
+@media only screen and (max-width: 1024px) {
+  .radiantBG {
+    height: 2290px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .radiantBG {
+    height: 2190px;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .radiantBG {
+    height: 2290px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .radiantBG {
+    height: 2390px;
+  }
+}
+
 .radiantServicesBG {
   /* width: 1440px;
   height: 1154px; */

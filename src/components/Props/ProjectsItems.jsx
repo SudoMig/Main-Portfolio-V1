@@ -1,3 +1,5 @@
+import { Link } from 'react-scroll';
+
 const ProjectsItems = (props) => {
   return (
     <div className='flex h-3/5 w-full px-10 pt-24'>
@@ -21,9 +23,11 @@ const ProjectsItems = (props) => {
               {props.title}
             </div>
             <div className='text-white '>{props.content}</div>
-            {/* <button className='bg-slate-100 text-black h-10 w-28 mt-4 font-semibold cursor-default hvr-bounce-to-right'>
-              More Soon
-            </button> */}
+            <button className='bg-slate-100 text-black h-10 w-28 mt-4 font-semibold cursor-default hvr-bounce-to-right !cursor-pointer'>
+              <Link to='Contact' smooth={true} duration={1000}>
+                More
+              </Link>
+            </button>
           </div>
         </div>
       </div>

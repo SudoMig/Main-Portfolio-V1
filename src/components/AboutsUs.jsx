@@ -17,13 +17,13 @@ function AboutsUs() {
   };
 
   return (
-    <div id='AboutUs' className=''>
-      <div className='block md:hidden '>
+    <div id='AboutUs'>
+      <div className='block lg:hidden '>
         <SideNav />
       </div>
       <div className='bg-black radiantBG pt-40 md:pt-40 w-full bodyContent'>
         <Container>
-          <div className='flex flex-col md:flex-row md:justify-evenly items-center px-4'>
+          <div className='flex flex-col lg:flex-row lg:justify-evenly items-center px-4'>
             <div className='box-content md:w-[40rem]'>
               <div className='font-semibold text-blue-500 text-center md:text-left text-3xl'>
                 Who am I ?
@@ -84,11 +84,11 @@ function AboutsUs() {
           </div>
           <div
             id='ProcessOverview'
-            className='flex justify-center mt-12 mb-24 sm:mt-36 sm:mb-40 font-semibold text-3xl text-PrimaryBlue sm:text-white '
+            className='flex justify-center mt-12 mb-20 sm:mt-36 sm:mb-40 font-semibold text-3xl text-PrimaryBlue sm:text-white '
           >
             Process Overview
           </div>
-          <div className='hidden md:block'>
+          <div className='hidden lg:block'>
             <div className='flex justify-evenly items-center '>
               <div className='w-1/3'>
                 <ProcessImages image={image} />
@@ -106,7 +106,7 @@ function AboutsUs() {
               </AccordionWrapper>
             </div>
           </div>
-          <div className='block md:hidden'>
+          <div className='block lg:hidden'>
             <AccordionWrapper changeImage={changeImage}>
               {Data.map((item, index) => (
                 <MobileAccordionItem
