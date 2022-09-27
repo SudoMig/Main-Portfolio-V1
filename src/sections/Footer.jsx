@@ -38,6 +38,7 @@ const navigation = {
     {
       name: 'Freelancer',
       href: 'https://www.freelancer.com/u/mu97',
+      // href:'https://www.fiverr.com/s2/48ed6d3e2d',
       icon: (props) => (
         <SiFreelancer className='w-8 md:w-10 h-8 hover:fill-[#29B2FE] hover:-translate-y-3 transition ease-out duration-300' />
       ),
