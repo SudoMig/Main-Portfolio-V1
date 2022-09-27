@@ -25,7 +25,7 @@ function AboutsUs() {
         <Container>
           <div className='flex flex-col lg:flex-row lg:justify-evenly items-center px-4'>
             <div className='box-content md:w-[40rem]'>
-              <div className='font-semibold text-blue-500 text-center md:text-left text-3xl'>
+              <div className='font-semibold text-LightGreen text-center md:text-left text-3xl'>
                 Who am I ?
               </div>
               <div className='text-center md:text-left'>
@@ -38,7 +38,7 @@ function AboutsUs() {
                   I'm continuously seeking opportunities to broaden my
                   experience and improve my skill set.
                 </p>
-                <div className='text-blue-500 font-semibold text-center md:text-left text-xl mb-2'>
+                <div className='text-LightGreen font-semibold text-center md:text-left text-xl mb-2'>
                   Why did I choose the self-taught path?
                 </div>
                 <p className='text-blue-100 text-lg font-semibold'>

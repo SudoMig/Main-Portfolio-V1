@@ -25,8 +25,8 @@ code {
   height: 1690px;
 
   background: radial-gradient(
-      51.87% 57.63% at 73.33% 34.6%,
-      #243c94 0%,
+      45.87% 57.63% at 74.33% 26.6%,
+      #115f61 0%,
       rgba(36, 60, 148, 0) 100%
     ),
     #060606;
@@ -205,8 +205,9 @@ code {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border: solid 2px rgba(71, 83, 253, 0.123);
+  border: solid 2px rgba(6, 50, 55, 1);
   border-radius: 4px;
+  color: #115f61;
 }
 .hvr-rectangle-in:before {
   content: '';
@@ -216,7 +217,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #1d4ed8;
+  background: #000505;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition-property: transform;
@@ -258,8 +259,9 @@ code {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border: solid 2px rgba(71, 83, 253, 0.123);
+  border: solid 2px rgba(6, 50, 55, 1);
   border-radius: 4px;
+  color: #115f61;
 }
 .hvr-rectangle-out:before {
   content: '';
@@ -269,7 +271,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #1d4ed8;
+  background: #115f61;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
@@ -304,7 +306,7 @@ code {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(6, 50, 55, 1);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;

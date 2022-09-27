@@ -1,4 +1,3 @@
-
 module.exports = {
   // purge: ['./src/**/*.{html,js}', './src/**/*.{html,js}'],
   content: ['./src/**/*.{js,jsx,css}'],
@@ -36,10 +35,14 @@ module.exports = {
         128: '32rem',
       },
       colors: {
+        DarkerGreen: '#063237',
+        DarkGreen: '#0d444c',
+        PaleGreen: '#115f61',
+        LightGreen: '#27b8b1',
         PrimaryBlue: '#5476EA',
         lightPurple: '#9294f8',
       },
-    
+
       keyframes: {
         'fade-in-up': {
           '0%': {
@@ -61,7 +64,6 @@ module.exports = {
             transform: 'translateX(0)',
           },
         },
-       
       },
       animation: {
         'fade-in-up': 'fade-in-up 0.6s ease-in forwards',
