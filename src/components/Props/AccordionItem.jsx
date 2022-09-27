@@ -28,7 +28,7 @@ const AccordionItem = (props) => {
                 className={` absolute w-[0.4rem] h-0 bg-blue-100 z-0
             ${
               active === props.index
-                ? '!bg-blue-600 !h-full h-1 rounded-lg transform duration-700 ease-out z-10 '
+                ? '!bg-LighterGreen !h-full h-1 rounded-lg transform duration-700 ease-out z-10 '
                 : '!h-10 w-[0.4rem] rounded-lg z-10 '
             }`}
               ></div>
