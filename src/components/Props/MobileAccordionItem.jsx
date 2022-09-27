@@ -61,7 +61,7 @@ const MobileAccordionItem = (props) => {
                     <div className={` absolute w-0
                     ${
                       active === props.index
-                        ? 'absolute bg-blue-600 !w-full h-1 rounded-lg transform duration-700 ease-out z-10'
+                        ? 'absolute bg-PaleGreen !w-full h-1 rounded-lg transform duration-700 ease-out z-10'
                         : null
                     }`}></div>
                   </div>

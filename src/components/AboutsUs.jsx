@@ -84,7 +84,7 @@ function AboutsUs() {
           </div>
           <div
             id='ProcessOverview'
-            className='flex justify-center mt-12 mb-20 sm:mt-36 sm:mb-40 font-semibold text-3xl text-PrimaryBlue sm:text-white '
+            className='flex justify-center mt-12 mb-20 sm:mt-36 sm:mb-40 font-semibold text-3xl text-LightGreen sm:text-white '
           >
             Process Overview
           </div>
