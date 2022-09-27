@@ -7,7 +7,7 @@ import AccordionItem from './Props/AccordionItem';
 import MobileAccordionItem from './Props/MobileAccordionItem';
 import Container from '../sections/Container';
 import SideNav from '../sections/SideNav';
-import Resume from '../Files/Miguel_Louis_-_Junior_Web_Developer_Blue_compressed.pdf';
+import Resume from '../Files/Miguel_Louis_-_Junior_Web_Developer_Green_compressed.pdf';
 
 function AboutsUs() {
   const [image, setImage] = useState(0);
