@@ -9,8 +9,8 @@ const SideNav = () => {
   const NavBarClose = 'z-10 fixed right-[-12rem] w-1/2 h-full translate-x-20 transition-all duration-700 ease-in-out'
   const NavItems = [
     { name: 'About', to: 'AboutUs' },
-    { name: 'Services', to: 'ProcessOverview' },
-    { name: 'Process', to: 'Services'},
+    { name: 'Services', to: 'Services' },
+    { name: 'Process', to: 'ProcessOverview'},
     { name: 'Hire Me', to: 'Contact'  },
   ];
   

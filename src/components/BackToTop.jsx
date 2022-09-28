@@ -1,9 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import {FaAngleDoubleUp} from 'react-icons/fa'
 
+// ****REPLACED WITH STICKY NAV *****
+
+
 const BackToTop = () => {
   
-    const [showButton, setShowButton] = useState(false);
+  const [showButton, setShowButton] = useState(false);
   
     useEffect(() => {
         window.addEventListener("scroll", () => {

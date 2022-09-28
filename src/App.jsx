@@ -18,7 +18,6 @@ function App() {
   return (
     <div className="Montserrat">
       <NavBar />
-      <BackToTop />
       <Header />
       <AboutsUs />
       <CloudLogos />
