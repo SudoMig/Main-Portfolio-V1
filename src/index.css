@@ -74,14 +74,14 @@ code {
   height: 1807px; */
 
   background: radial-gradient(
-        42.55% 42.6% at 30.76% 30.48%,
-        #203582 20.71%,
+        42.55% 47.6% at 30.76% 40.48%,
+        #115f61 20.71%,
         rgba(0, 0, 0, 0) 69.64%
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     radial-gradient(
         33.35% 35.22% at 77.26% 80.12%,
-        #203682 9.61%,
+        #115f61 9.61%,
         rgba(0, 0, 0, 0) 65.31%
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,

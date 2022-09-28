@@ -32,19 +32,19 @@ const Workflow = () => {
         <Container>
           <div>
             <div className='flex justify-left text-white pt-24 pl-4 mb-20 sm:pt-48 sm:pl-16 sm:mb-24'>
-              <div className='text-lg sm:text-xl'>
+              <div className='text-lg sm:text-xl font-semibold'>
                 WorkFlow
                 <div className='grid grid-rows-2'>
                   <div className='box-content w-80 text-left font-semibold text-2xl sm:text-3xl pl-10 sm:pl-12'>
                     Overview
                   </div>
-                  <div className='bg-blue-700 h-1 w-48 ml-10 ml-12'></div>
+                  <div className='bg-PaleGreen h-1 w-48 ml-10 ml-12'></div>
                 </div>
               </div>
             </div>
           </div>
         </Container>
-        <Container narrow>
+        <Container resolution>
           <div className='flex flex-col md:gap-y-6'>
             {WorkflowData.map((item, index) => (
               <WorkFlowItems
