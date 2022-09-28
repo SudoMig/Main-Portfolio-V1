@@ -43,7 +43,7 @@ const MobileServiceItems = (props) => {
               ${background_image}`}
         >
           <div className='flex pt-4'>
-            <div className='h-16 md:h-20 w-1 bg-blue-600 rounded-full ml-6 mr-2' />
+            <div className='h-16 md:h-20 w-1 bg-PaleGreen rounded-full ml-6 mr-2' />
             <div className='font-semibold text-2xl text-white '>
               <button
                 className={props.active === props.index ? Style.on : Style.off}

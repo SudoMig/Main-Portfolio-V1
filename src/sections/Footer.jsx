@@ -38,6 +38,7 @@ const navigation = {
     {
       name: 'Freelancer',
       href: 'https://www.freelancer.com/u/mu97',
+      // href:'https://www.fiverr.com/s2/48ed6d3e2d',
       icon: (props) => (
         <SiFreelancer className='w-8 md:w-10 h-8 hover:fill-[#29B2FE] hover:-translate-y-3 transition ease-out duration-300' />
       ),
@@ -58,7 +59,7 @@ export default function Footer() {
                 smooth={true}
                 duration={1000}
                 to={item.to}
-                className='text-base text-gray-400 hover:text-blue-500 font-semibold transition-all duration-300 ease-in-out cursor-pointer'
+                className='text-base text-gray-400 hover:text-LightGreen font-semibold transition-all duration-300 ease-in-out cursor-pointer'
               >
                 {item.name}
               </Link>
@@ -80,11 +81,6 @@ export default function Footer() {
               </a>
             ))}
           </div>
-
-          {/* <div className='flex flex-col justify-center items-center'>
-            <span className='flex justify-center items-center text-blue-100 mt-6'></span>
-            <img className='object-scale-down w-20' src={require('../Images/HappyMemojiIcon.png')} alt="" />
-          </div> */}
           <div>
             <span className='flex justify-center items-center text-gray-400 font-semibold mt-8'>
               Designed & Developed by Miguel Louis

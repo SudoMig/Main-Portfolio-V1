@@ -18,11 +18,11 @@ const ProjectsItems = (props) => {
             data-aos-delay='450'
             className='py-14 px-4'
           >
-            <div className='text-white text-xl font-semibold mb-2 '>
+            <div className='text-LightGreen text-xl font-semibold mb-2 '>
               {props.title}
             </div>
             <div className='text-white '>{props.content}</div>
-            <button className='bg-slate-100 text-black h-10 w-28 mt-4 font-semibold cursor-default hvr-bounce-to-right !cursor-pointer'>
+            <button className='bg-opacity-0 border-2 border-DarkerGreen text-LightGreen h-10 w-28 mt-4 font-semibold cursor-default hvr-bounce-to-right !cursor-pointer'>
               <Link to='Contact' smooth={true} duration={1000}>
                 View More 
               </Link>

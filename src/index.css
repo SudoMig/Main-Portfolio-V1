@@ -18,6 +18,21 @@ code {
   font-family: 'Montserrat';
 }
 
+#full-name::placeholder {
+  color: #0a716d;
+  opacity: 0.7;
+}
+
+#email::placeholder {
+  color: #0a716d;
+  opacity: 0.7;
+}
+
+#message::placeholder {
+  color: #0a716d;
+  opacity: 0.7;
+}
+
 /* BACKGROUND */
 
 .radiantBG {
@@ -25,8 +40,8 @@ code {
   height: 1690px;
 
   background: radial-gradient(
-      51.87% 57.63% at 73.33% 34.6%,
-      #243c94 0%,
+      45.87% 57.63% at 74.33% 26.6%,
+      #115f61 0%,
       rgba(36, 60, 148, 0) 100%
     ),
     #060606;
@@ -61,8 +76,8 @@ code {
   height: 1154px; */
 
   background: radial-gradient(
-      47.03% 63.35% at 9.37% 42.06%,
-      rgba(30, 50, 121, 0.55) 18.57%,
+      49.03% 83.35% at 9.77% 49.06%,
+      rgba(17, 95, 97, 1) 18.57%,
       rgba(0, 0, 0, 0) 80.92%
     ),
     #060606;
@@ -74,14 +89,14 @@ code {
   height: 1807px; */
 
   background: radial-gradient(
-        42.55% 42.6% at 30.76% 30.48%,
-        #203582 20.71%,
+        42.55% 47.6% at 27.76% 45.48%,
+        #115f61 20.71%,
         rgba(0, 0, 0, 0) 69.64%
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     radial-gradient(
-        33.35% 35.22% at 77.26% 80.12%,
-        #203682 9.61%,
+        33.35% 35.22% at 80.26% 88.12%,
+        #115f61 9.61%,
         rgba(0, 0, 0, 0) 65.31%
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
@@ -94,13 +109,13 @@ code {
 
   background: radial-gradient(
         62.55% 51.6% at 30.76% 30.48%,
-        #203582 20.71%,
+        #115f61 20.71%,
         rgba(0, 0, 0, 0) 69.64%
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     radial-gradient(
         40.35% 29.22% at 77.26% 80.12%,
-        #203682 9.61%,
+        #115f61 9.61%,
         rgba(0, 0, 0, 0) 65.31%
       )
       /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
@@ -110,9 +125,9 @@ code {
 .footerBG {
   background: radial-gradient(
       64.36% 56.36% at 50% 113.5%,
-      rgba(11, 51, 184, 0.2) 12.39%,
-      rgba(15, 41, 114, 0.072) 30.95%,
-      rgba(29, 78, 216, 0.2) 59.74%,
+      rgba(17, 95, 97, 1) 12.39%,
+      rgba(14, 85, 87, 0.678) 30.95%,
+      rgba(17, 94, 97, 0.219) 59.74%,
       rgba(0, 0, 0, 0) 100%
     ),
     #000000;
@@ -138,7 +153,7 @@ code {
   left: 0;
   right: 100%;
   bottom: 0;
-  background: #2563eb;
+  background: #0a716d;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -171,7 +186,7 @@ code {
   right: 100%;
   bottom: 0;
   top: 20px;
-  background: #2563eb;
+  background: #0a716d;
   height: 4px;
   -webkit-transition-property: right;
   transition-property: right;
@@ -205,8 +220,9 @@ code {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border: solid 2px rgba(71, 83, 253, 0.123);
+  border: solid 2px rgba(6, 50, 55, 1);
   border-radius: 4px;
+  color: #27b8b1;
 }
 .hvr-rectangle-in:before {
   content: '';
@@ -216,7 +232,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #1d4ed8;
+  background: #000505;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition-property: transform;
@@ -258,8 +274,9 @@ code {
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  border: solid 2px rgba(71, 83, 253, 0.123);
+  border: solid 2px rgba(6, 50, 55, 1);
   border-radius: 4px;
+  color: #27b8b1;
 }
 .hvr-rectangle-out:before {
   content: '';
@@ -269,7 +286,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #1d4ed8;
+  background: #115f61;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
@@ -304,7 +321,7 @@ code {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(6, 50, 55, 1);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -320,7 +337,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #1d4ed8;
+  background: #115f61;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -375,7 +392,7 @@ code {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #dbeafe;
+  background: #115f61;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;

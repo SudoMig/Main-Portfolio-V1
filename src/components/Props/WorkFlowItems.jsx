@@ -1,22 +1,6 @@
-import { useEffect, useState } from 'react';
 import '../Styles/WorkFlow.css';
 
 const WorkFlowItems = (props) => {
-  // return (
-  // <div className=''>
-  //   <div className='js-show-on-scroll flex  h-32'>
-  //     <div className='flex flex-col-2 grow space-x-6'>
-  //     <div className='w-1/4 h-full bg-red-600' />
-  //     <div className='w-96 text-white flex justify-start items-center z-10 '>
-  //       Hello This is some random dummny text. Why don't you go to Africa for
-  //       lunch and paris for dinner? Strange huh
-  //     </div>
-  //     </div>
-  //   </div>
-  //   {/* absolute w-[40rem] top-1/3 left-1/4 text-white  z-10 */}
-
-  // </div>
-  // );
 
   let BackgroundImage = '';
 
@@ -47,9 +31,9 @@ const WorkFlowItems = (props) => {
               {props.icon}
             </div>
           </div>
-          <div className='flex items-center w-64 md:w-[35rem] pl-4 '>
+          <div className='flex items-center w-64 md:w-[35rem] pl-4'>
             <div className='flex flex-col'>
-              <p className='text-blue-600 text-xl font-semibold pb-2'>
+              <p className='text-LightGreen text-xl font-semibold pb-2'>
                 {props.title}
               </p>
               <p className='box-content w-82 text-base text-white'>

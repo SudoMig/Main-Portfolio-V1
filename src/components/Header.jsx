@@ -1,5 +1,6 @@
 import React from 'react';
 import video from '../Videos/video.mp4';
+import internetWeb from '../Videos/InternetWeb.gif'
 import bannerImage from '../Images/bannerImage.png';
 
 function Header() {
@@ -12,7 +13,7 @@ function Header() {
           </h1>
           <img
             className='absolute z-10 w-auto min-w-full max-w-none'
-            src={bannerImage}
+            src={internetWeb}
             alt=''
           />
           {/* VIDEO OPTION */}

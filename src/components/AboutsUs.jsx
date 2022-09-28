@@ -7,7 +7,7 @@ import AccordionItem from './Props/AccordionItem';
 import MobileAccordionItem from './Props/MobileAccordionItem';
 import Container from '../sections/Container';
 import SideNav from '../sections/SideNav';
-import Resume from '../Files/MiguelLouisResume.pdf';
+import Resume from '../Files/Miguel_Louis_-_Junior_Web_Developer_Green_compressed.pdf';
 
 function AboutsUs() {
   const [image, setImage] = useState(0);
@@ -25,7 +25,7 @@ function AboutsUs() {
         <Container>
           <div className='flex flex-col lg:flex-row lg:justify-evenly items-center px-4'>
             <div className='box-content md:w-[40rem]'>
-              <div className='font-semibold text-blue-500 text-center md:text-left text-3xl'>
+              <div className='font-semibold text-LightGreen text-center md:text-left text-3xl'>
                 Who am I ?
               </div>
               <div className='text-center md:text-left'>
@@ -38,7 +38,7 @@ function AboutsUs() {
                   I'm continuously seeking opportunities to broaden my
                   experience and improve my skill set.
                 </p>
-                <div className='text-blue-500 font-semibold text-center md:text-left text-xl mb-2'>
+                <div className='text-LightGreen font-semibold text-center md:text-left text-xl mb-2'>
                   Why did I choose the self-taught path?
                 </div>
                 <p className='text-blue-100 text-lg font-semibold'>
@@ -84,7 +84,7 @@ function AboutsUs() {
           </div>
           <div
             id='ProcessOverview'
-            className='flex justify-center mt-12 mb-20 sm:mt-36 sm:mb-40 font-semibold text-3xl text-PrimaryBlue sm:text-white '
+            className='flex justify-center mt-12 mb-20 sm:mt-36 sm:mb-40 font-semibold text-3xl text-LightGreen sm:text-white '
           >
             Process Overview
           </div>

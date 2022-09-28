@@ -26,9 +26,9 @@ const ContactForm = () => {
       method='POST'
       className='grid grid-cols-1 gap-y-2 md:gap-y-6 md:pt-10 md:pb-24 text-base sm:text-base'
     >
-      <div className='flex space-x-2 py-2 '>
+      <div className='flex space-x-2 py-2'>
         <div className='py-1 md:py-0'>
-          <label htmlFor='full-name' className='sr-only '>
+          <label htmlFor='full-name' className='sr-only'>
             Name
           </label>
           <input
@@ -36,7 +36,7 @@ const ContactForm = () => {
             name='full-name'
             id='full-name'
             autoComplete='name'
-            className='w-11/12 md:w-full border-b border-gray-800 md:border-b-2 border-white bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-blue-600 transition-all duration-200 '
+            className='w-11/12 md:w-full border-b border-[#0d444c] md:border-b-2 border-white bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200 '
             placeholder='Name'
           />
         </div>
@@ -49,7 +49,7 @@ const ContactForm = () => {
             name='email'
             type='email'
             autoComplete='email'
-            className='w-11/12 md:w-full border-b border-gray-800 md:border-b-2 border-white bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-blue-600 transition-all duration-200'
+            className='w-11/12 md:w-full border-b border-[#0d444c] md:border-b-2 border-white bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200'
             placeholder='Email'
           />
         </div>
@@ -62,7 +62,7 @@ const ContactForm = () => {
           id='message'
           name='message'
           rows={1}
-          className='mt-4 border-b border-gray-800 md:border-b-2 border-white w-full bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-blue-600 transition-all duration-200'
+          className='mt-4 border-b border-[#0d444c] md:border-b-2 border-white w-full bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200'
           placeholder='Message'
           defaultValue={''}
         />
@@ -70,7 +70,7 @@ const ContactForm = () => {
       <div>
         <button
           type='submit'
-          className='mt-4 bg-blue-700 w-full h-10 hover:text-blue-700 text-lg font-semibold bounce-to-right'
+          className='mt-4 bg-opacity-0 border-2 border-DarkerGreen text-LightGreen w-full h-10 hover:text-white text-lg font-semibold bounce-to-right'
         >
           Submit
         </button>
