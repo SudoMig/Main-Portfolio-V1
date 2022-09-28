@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
       <div id='Contact' className='relative overflow-hidden bg-black h-MobileContactBGImage h-full lg:h-full pt-12 pb-12 md:pt-0 md:pb-0 z-10'>
-        <div>
+        {/* <div>
           <div className='hidden lg:block z-0 '>
             <img
               className='absolute w-[12rem] left-[-6rem] bottom-[24rem] md:w-1/3 md:left-[-4rem] md:bottom-1/2 '
@@ -21,18 +21,18 @@ const Contact = () => {
               alt=''
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Mobile */}
 
         <Container resolution>
           <div className='flex flex-col justify-center h-full lg:h-screen'>
-            <h1 className='hidden md:block z-40 text-blue-600 font-semibold text-4xl md:text-5xl md:pl-[10%]'>
+            <h1 className='hidden md:block z-40 text-LightGreen font-semibold text-4xl md:text-5xl md:pl-[10%]'>
               Contact Me.
             </h1>
             <div className=''>
               <div className='flex justify-center'>
-                <div className='z-50 bg-black md:border-2 border-blue-600 w-full py-8 md:py-0'>
+                <div className='z-50 bg-black md:border-2 border-PaleGreen w-full py-8 md:py-0'>
                   <div className='flex flex-col md:flex-row justify-evenly items-center h-full '>
                     <div className='text-white flex-inital'>
                       <img
