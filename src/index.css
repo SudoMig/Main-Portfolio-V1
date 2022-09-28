@@ -222,7 +222,7 @@ code {
   transition-duration: 0.3s;
   border: solid 2px rgba(6, 50, 55, 1);
   border-radius: 4px;
-  color: #115f61;
+  color: #27b8b1;
 }
 .hvr-rectangle-in:before {
   content: '';
@@ -276,7 +276,7 @@ code {
   transition-duration: 0.3s;
   border: solid 2px rgba(6, 50, 55, 1);
   border-radius: 4px;
-  color: #115f61;
+  color: #27b8b1;
 }
 .hvr-rectangle-out:before {
   content: '';

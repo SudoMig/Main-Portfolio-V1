@@ -1,5 +1,4 @@
 module.exports = {
-  // purge: ['./src/**/*.{html,js}', './src/**/*.{html,js}'],
   content: ['./src/**/*.{js,jsx,css}'],
   theme: {
     extend: {
@@ -11,12 +10,9 @@ module.exports = {
         Others: "url('./Images/Other.png')",
         ContactBG: "url('./Images/ContactBG.png')",
         MobileWebsiteDesign: "url('./Images/MobileWebsiteDesign.png')",
-        MobileWebsiteDevelopment:
-          "url('./Images/MobileWebsiteDevelopment.png')",
-        MobilePersonalizedRequests:
-          "url('./Images/MobilePersonalizedRequest.png')",
+        MobileWebsiteDevelopment:"url('./Images/MobileWebsiteDevelopment.png')",
+        MobilePersonalizedRequests:"url('./Images/MobilePersonalizedRequest.png')",
         MobileOthers: "url('./Images/MobileOther.png')",
-        Test: "url('./Images/TestPic.png')",
         Design: "url('./Images/Design.png')",
         WorkFlowClient: "url('./Images/WorkFlowClient.png')",
         WorkFlowWireFrame: "url('./Images/WorkFlowWireFrame.png')",
@@ -37,7 +33,7 @@ module.exports = {
       colors: {
         DarkestGreen: '#021413', 
         DarkerGreen: '#063237',
-        DarkGreen: '#0d444c',
+        DarkGreen: '#0d444c', 
         PalerGreen: '#115f61',
         PaleGreen: '#0a716d',
         LightGreen: '#27b8b1',
