@@ -28,11 +28,11 @@ const Workflow = () => {
 
   return (
     <div className=''>
-      <div className='radiantWorkFlow w-full'>
+      <div className='radiantWorkFlow w-full md:pb-20 '>
         <Container>
           <div>
             <div className='flex justify-left text-white pt-24 pl-4 mb-20 sm:pt-48 sm:pl-16 sm:mb-24'>
-              <div className='text-lg sm:text-xl font-semibold'>
+              <div className='text-lg sm:text-xl'>
                 WorkFlow
                 <div className='grid grid-rows-2'>
                   <div className='box-content w-80 text-left font-semibold text-2xl sm:text-3xl pl-10 sm:pl-12'>
