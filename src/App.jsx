@@ -23,8 +23,8 @@ function App() {
       <AboutsUs />
       <CloudLogos />
       <Services />
-      <Workflow />
       <Projects />
+      <Workflow />
       <Contact />
       <Footer />
     </div>

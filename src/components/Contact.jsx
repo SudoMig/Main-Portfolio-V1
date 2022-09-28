@@ -32,7 +32,7 @@ const Contact = () => {
             </h1>
             <div className=''>
               <div className='flex justify-center'>
-                <div className='z-50 bg-black md:border-2 border-PaleGreen w-full py-8 md:py-0'>
+                <div className='z-50 bg-black md:border-2 border-DarkerGreen w-full py-8 md:py-0'>
                   <div className='flex flex-col md:flex-row justify-evenly items-center h-full '>
                     <div className='text-white flex-inital'>
                       <img
