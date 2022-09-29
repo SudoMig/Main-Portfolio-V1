@@ -36,7 +36,7 @@ const ContactForm = () => {
             name='full-name'
             id='full-name'
             autoComplete='name'
-            className='w-11/12 md:w-full border-b border-[#0d444c] md:border-b-2 border-white bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200 '
+            className='w-11/12 md:w-full border-b border-DarkGreen md:border-b-2 border-DarkGreen bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200 '
             placeholder='Name'
           />
         </div>
@@ -49,7 +49,7 @@ const ContactForm = () => {
             name='email'
             type='email'
             autoComplete='email'
-            className='w-11/12 md:w-full border-b border-[#0d444c] md:border-b-2 border-white bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200'
+            className='w-11/12 md:w-full border-b border-DarkGreen md:border-b-2 border-DarkGreen bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200'
             placeholder='Email'
           />
         </div>
@@ -62,7 +62,7 @@ const ContactForm = () => {
           id='message'
           name='message'
           rows={1}
-          className='mt-4 border-b border-[#0d444c] md:border-b-2 border-white w-full bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200'
+          className='mt-4 border-b border-DarkGreen md:border-b-2 border-DarkGreen w-full bg-black outline-none focus:border-b md:focus:border-b-2 focus:border-LightGreen transition-all duration-200'
           placeholder='Message'
           defaultValue={''}
         />

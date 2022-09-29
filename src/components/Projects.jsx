@@ -12,7 +12,7 @@ function Projects() {
 
 return (
   <>
-  <div className='bg-black pt-12 pb-16 lg:pb-48 border-b border-DarkerGreen md:border-b-2'>
+  <div className='bg-black pt-12 pb-16 lg:pb-6 border-b border-DarkerGreen md:border-0'>
     <Container>
       <div id='Projects' className='pt-24 text-lg text-white font-base'>Design Templates &</div>
     <div className='text-LightGreen text-3xl font-semibold' >Recent Projects</div>

@@ -59,7 +59,7 @@ export default function Footer() {
                 smooth={true}
                 duration={1000}
                 to={item.to}
-                className='text-base text-gray-400 hover:text-LightGreen font-semibold transition-all duration-300 ease-in-out cursor-pointer'
+                className='text-base text-slate-300 hover:text-LightGreen font-semibold transition-all duration-300 ease-in-out cursor-pointer'
               >
                 {item.name}
               </Link>
@@ -74,7 +74,7 @@ export default function Footer() {
                 href={item.href}
                 target='_blank'
                 rel='noreferrer'
-                className='text-gray-400'
+                className='text-slate-300'
               >
                 <span className='sr-only'>{item.name}</span>
                 <item.icon className='h-6 w-6' aria-hidden='true' />
@@ -82,12 +82,12 @@ export default function Footer() {
             ))}
           </div>
           <div>
-            <span className='flex justify-center items-center text-gray-400 font-semibold mt-8'>
+            <span className='flex justify-center items-center text-slate-300 font-semibold mt-8'>
               Designed & Developed by Miguel Louis
             </span>
           </div>
           <div>
-            <p className='text-center text-sm text-gray-400 mt-2'>
+            <p className='text-center text-sm text-slate-300 mt-2'>
               &copy; {new Date().getFullYear()} Miguel Louis.
             </p>
           </div>
