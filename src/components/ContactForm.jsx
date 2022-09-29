@@ -70,7 +70,7 @@ const ContactForm = () => {
       <div>
         <button
           type='submit'
-          className='mt-4 bg-opacity-0 border-2 border-DarkerGreen text-LightGreen w-full h-10 hover:text-white text-lg font-semibold bounce-to-right'
+          className='mt-4 bg-opacity-0 border-2 border-LightGreen text-LightGreen w-full h-10 hover:text-black hover:border-DarkerGreen text-lg font-semibold bounce-to-right transition-all duration-300 ease-in-out'
         >
           Submit
         </button>
